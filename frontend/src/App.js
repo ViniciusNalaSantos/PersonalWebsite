@@ -1,8 +1,8 @@
-import './App.css';
+import Banner from './components/Banner';
 
 function App() {
   return (
-    <h1>Opa</h1>
+    <div><Banner></Banner></div>    
   );
 }
 
