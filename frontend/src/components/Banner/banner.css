@@ -2,7 +2,8 @@
 
 :root {
     --color-main-dark-grey: #4C4C4C;
-    --color-secondary-white: #FFFFFF; 
+    --color-secondary-white: #FFFFFF;
+    --font-family-main: "Nunito", sans-serif;
 }
 
 * {
@@ -17,7 +18,7 @@
     min-width: 100%;
     display: flex;
     font-size: 1.5rem;
-    font-family: "Nunito", sans-serif;
+    font-family: var(--font-family-main);
     width: 100%;              
 }
 

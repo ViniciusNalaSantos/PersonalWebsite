@@ -3,7 +3,6 @@ import { FaChevronDown } from "react-icons/fa6";
 import './banner.css'
 
 function Banner() {
-
   return (          
     <header className="banner">
         <nav className="banner-navigations">
