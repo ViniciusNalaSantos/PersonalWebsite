@@ -3,6 +3,7 @@ import { FaChevronDown } from "react-icons/fa6";
 import './banner.css'
 
 function Banner() {
+
   return (          
     <header className="banner">
         <nav className="banner-navigations">
@@ -12,13 +13,11 @@ function Banner() {
             <a>CONTATO</a>
         </nav>
         <div className="banner-select-language">
-          <LiaGlobeAmericasSolid size={'22'} />
-          <div className="banner-select-language-button">                    
-            <button className="banner-select-language-button-text">
-              PORTUGUÊS
-              <FaChevronDown className="banner-select-language-button-chevron" />
-            </button>
-          </div>
+          <LiaGlobeAmericasSolid size={'24'} />                 
+          <button className="banner-select-language-button">
+            PORTUGUÊS
+            <FaChevronDown className="banner-select-language-button-chevron" />
+          </button>
         </div>
     </header>
   )
