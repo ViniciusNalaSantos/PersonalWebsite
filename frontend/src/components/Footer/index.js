@@ -1,19 +1,31 @@
 import './footer.css'
+import { FaHackerrank , FaGithub, FaLinkedinIn, FaMediumM, FaKaggle } from "react-icons/fa";
 
 function Footer() {
     const text = 'Lorem ipsum dolor sit amet. Vel animi repudiandae et quos deleniti a unde quia. In aliquam eius hic illum blanditiis.'
 
   return (
     <footer className='footer'>
-        <h1 className='footer-title'>VINÍCIUS NALA</h1>
-        <section className='footer-text'>{text}</section>
-        <aside>
-            <h1>MÍDIAS</h1>
-        </aside>
-        <hr className='line' />
-        <small>
-            @ Copyright 2024. Made by <a href='https://www.linkedin.com/in/viniciusnala/'>Vinícius Nala</a>
-            </small>
+        <div className='footer-main'>
+          <div className='footer-main-primary'>
+            <h1 className='footer-main-primary-title'><b>VINÍCIUS NALA</b></h1>
+            <section className='footer-main-primary-text'>{text}</section>
+          </div>          
+          <aside className='footer-main-aside'>
+            <h1 className='footer-main-aside-title'>MÍDIAS</h1>
+            <icon className='footer-main-aside-icons'>
+              <a href='https://www.hackerrank.com/profile/vinicius_nala' className='footer-main-aside-icons-hackerrank'><FaHackerrank /></a>
+              <a href='https://github.com/ViniciusNalaSantos' className='footer-main-aside-icons-github'><FaGithub /></a>
+              <a href='https://www.linkedin.com/in/viniciusnala/' className='footer-main-aside-icons-linkedln'><FaLinkedinIn /></a>
+              <a href='https://medium.com/@viniciusnala' className='footer-main-aside-icons-medium'><FaMediumM /></a>
+              <a href='https://www.kaggle.com/viniciusnalasantos' className='footer-main-aside-icons-kaggle'><FaKaggle /></a>
+            </icon>
+          </aside>
+        </div>
+        <hr className='footer-line' />
+        <small className='footer-copyright'>
+          @ Copyright 2024. Made by <a href='https://www.linkedin.com/in/viniciusnala/' className='footer-copyright-link'>Vinícius Nala</a>
+        </small>
     </footer>
   )
 }

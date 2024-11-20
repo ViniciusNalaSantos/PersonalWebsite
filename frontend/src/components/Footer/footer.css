@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+:root {
+    --color-main-dark-grey: #4C4C4C;
+    --color-secondary-white: #FFFFFF;
+    --font-family-main: "Nunito", sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;    
+    font-family: var(--font-family-main);
+    background-color: var(--color-main-dark-grey);
+    color: var(--color-secondary-white);
+    height: 20vh;
+    width: 100vw;    
+}
+
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 12vw;
+    padding-right: 12vw;        
+}
+
+.footer-main-primary {
+    display: flex;
+    flex-direction: column;       
+}
+
+.footer-main-primary-title, footer-main-aside-title {
+    font-size: 1.5rem;
+    line-height: 1.5em;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 1.5em;
+}
+
+.footer-main-primary-text {
+    width: 50vw;
+}
+
+.footer-main-aside {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;    
+    margin-bottom: auto;
+}
+
+.footer-line {
+    align-self: center;        
+    width: 76vw;
+}
+
+.footer-copyright {
+    align-self: center;
+    margin-top: auto;
+    margin-bottom: auto;     
+}
+
+.footer-copyright-link:visited, .footer-copyright-link:hover,
+.footer-main-aside-icons-hackerrank:visited, .footer-main-aside-icons-hackerrank:hover,
+.footer-main-aside-icons-github:visited, .footer-main-aside-icons-github:hover,
+.footer-main-aside-icons-linkedln:visited, .footer-main-aside-icons-linkedln:hover,
+.footer-main-aside-icons-medium:visited, .footer-main-aside-icons-medium:hover,
+.footer-main-aside-icons-kaggle:visited, .footer-main-aside-icons-kaggle:hover {
+    color: var(--color-secondary-white);    
+}

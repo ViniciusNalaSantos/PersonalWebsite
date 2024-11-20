@@ -19,7 +19,8 @@
     font-size: 1.5rem;
     line-height: 1.5em;
     font-family: var(--font-family-main);
-    width: 100%;              
+    width: 100%;
+    justify-content: space-between;              
 }
 
 .banner-navigations {
@@ -38,8 +39,7 @@
     flex-wrap: nowrap;    
     gap: 5px;
     flex-flow: row;
-    padding-right: 12vw;
-    padding-left: 34vw;
+    padding-right: 12vw;    
     background-color: var(--color-main-dark-grey);     
 }
 
