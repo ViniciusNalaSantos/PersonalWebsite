@@ -2,7 +2,8 @@ import './footer.css'
 import { FaHackerrank , FaGithub, FaLinkedinIn, FaMediumM, FaKaggle } from "react-icons/fa";
 
 function Footer() {
-    const text = 'Lorem ipsum dolor sit amet. Vel animi repudiandae et quos deleniti a unde quia. In aliquam eius hic illum blanditiis.'
+    const text = 'Lorem ipsum dolor sit amet. Vel animi repudiandae et quos deleniti a unde quia. In aliquam eius hic illum blanditiis.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
+    const iconsSize = 28
 
   return (
     <footer className='footer'>
@@ -14,11 +15,11 @@ function Footer() {
           <aside className='footer-main-aside'>
             <h1 className='footer-main-aside-title'>MÍDIAS</h1>
             <icon className='footer-main-aside-icons'>
-              <a href='https://www.hackerrank.com/profile/vinicius_nala' className='footer-main-aside-icons-hackerrank'><FaHackerrank /></a>
-              <a href='https://github.com/ViniciusNalaSantos' className='footer-main-aside-icons-github'><FaGithub /></a>
-              <a href='https://www.linkedin.com/in/viniciusnala/' className='footer-main-aside-icons-linkedln'><FaLinkedinIn /></a>
-              <a href='https://medium.com/@viniciusnala' className='footer-main-aside-icons-medium'><FaMediumM /></a>
-              <a href='https://www.kaggle.com/viniciusnalasantos' className='footer-main-aside-icons-kaggle'><FaKaggle /></a>
+              <a href='https://www.hackerrank.com/profile/vinicius_nala' className='footer-main-aside-icons-hackerrank'><FaHackerrank size={iconsSize} /></a>
+              <a href='https://github.com/ViniciusNalaSantos' className='footer-main-aside-icons-github'><FaGithub size={iconsSize} /></a>
+              <a href='https://www.linkedin.com/in/viniciusnala/' className='footer-main-aside-icons-linkedln'><FaLinkedinIn size={iconsSize} /></a>
+              <a href='https://medium.com/@viniciusnala' className='footer-main-aside-icons-medium'><FaMediumM size={iconsSize} /></a>
+              <a href='https://www.kaggle.com/viniciusnalasantos' className='footer-main-aside-icons-kaggle'><FaKaggle size={iconsSize} /></a>
             </icon>
           </aside>
         </div>
