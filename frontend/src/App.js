@@ -1,9 +1,10 @@
 import Banner from './components/Banner';
 import Footer from './components/Footer';
+import './App.css'
 
 function App() {
   return (
-    <div>
+    <div className='body'>
       <Banner />
       <Footer />
     </div>    

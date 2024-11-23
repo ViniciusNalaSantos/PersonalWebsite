@@ -2,18 +2,17 @@ import './footer.css'
 import { FaHackerrank , FaGithub, FaLinkedinIn, FaMediumM, FaKaggle } from "react-icons/fa";
 
 function Footer() {
-    const text = 'Lorem ipsum dolor sit amet. Vel animi repudiandae et quos deleniti a unde quia. In aliquam eius hic illum blanditiis.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
-    const iconsSize = 28
+    const text = 'Lorem ipsum dolor sit amet. Vel animi repudiandae et quos deleniti a unde quia. In aliquam eius hic illum blanditiis.'
 
   return (
     <footer className='footer'>
         <div className='footer-main'>
           <div className='footer-main-primary'>
-            <h1 className='footer-main-primary-title'><b>VINÍCIUS NALA</b></h1>
+            <h2 className='footer-main-primary-title'><b>VINÍCIUS NALA</b></h2>
             <section className='footer-main-primary-text'>{text}</section>
           </div>          
           <aside className='footer-main-aside'>
-            <h1 className='footer-main-aside-title'>MÍDIAS</h1>
+            <h2 className='footer-main-aside-title'>MÍDIAS</h2>
             <icon className='footer-main-aside-icons'>
               <a href='https://www.hackerrank.com/profile/vinicius_nala' className='footer-main-aside-icons-hackerrank'><FaHackerrank className='footer-main-aside-icons-hackerrank' /></a>
               <a href='https://github.com/ViniciusNalaSantos' className='footer-main-aside-icons-github'><FaGithub /></a>

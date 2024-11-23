@@ -13,17 +13,17 @@
 
 .footer {
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;        
     font-family: var(--font-family-main);
     background-color: var(--color-main-dark-grey);
     color: var(--color-secondary-white);
-    height: 25vh;
-    width: 100vw;
+    height: auto;
+    min-height: 25vh;    
+    width: 100vw;        
 }
 
 .footer-main {
-    display: flex;
-    overflow: hidden;
+    display: flex;        
     justify-content: space-between;
     padding-left: 12vw;
     padding-right: 12vw;
@@ -71,13 +71,12 @@
 .footer-line {
     align-self: center;        
     width: 76vw;
-    margin-top: 3vh;
-    margin-bottom: 3vh;    
+    margin-top: auto;    
 }
 
 .footer-copyright {
     align-self: center;
-    margin-top: auto;
+    margin-top: 3vh;
     margin-bottom: 2vh;         
 }
 

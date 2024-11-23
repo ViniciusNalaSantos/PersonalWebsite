@@ -8,20 +8,19 @@
 
 * {
    margin: 0; 
-   padding: 0;
+   padding: 0;    
 }
 
 .banner {
     background-color: var(--color-main-dark-grey);
     color: var(--color-secondary-white);    
-    height: 12vh;
+    min-height: 12vh;
     display: flex;
     font-size: 1.5rem;
     line-height: 1.5em;
     font-family: var(--font-family-main);
     width: 100%;
-    justify-content: space-between;
-    overflow: hidden;              
+    justify-content: space-between;                 
 }
 
 .banner-navigations {
