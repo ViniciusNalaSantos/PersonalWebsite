@@ -20,7 +20,8 @@
     line-height: 1.5em;
     font-family: var(--font-family-main);
     width: 100%;
-    justify-content: space-between;                 
+    justify-content: space-between;
+    box-shadow: 4px 0px 4px 0px #000;                 
 }
 
 .banner-navigations {
