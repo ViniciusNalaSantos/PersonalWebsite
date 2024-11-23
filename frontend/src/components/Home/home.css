@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+:root {
+    --font-family-main: "Nunito", sans-serif;
+    --color-main-dark-grey: #4C4C4C;
+    --color-secondary-light-grey: #DBDBDB;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.home {
+    display: flex;
+    flex-flow: column;
+    font-family: var(--font-family-main);
+    align-items: center;
+    justify-content: center;
+    min-height: 88vh;
+    padding-top: 4rem;
+}
+
+.home-image {
+    border-radius: 50%;
+    width: 9.375rem;
+}
+
+.home-title {
+    font-size: 3rem;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+}
+
+.home-subtitle {
+    font-size: 2rem;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+}
+
+.home-text {
+    font-size: 1.5rem;
+    max-width: 72rem;
+    padding-top: 3rem;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+}
+
+.home-subtitle-company {
+    color: #43B1F9;
+}
+
+.home-icons {
+    display: flex;
+    flex-direction: row;
+    margin-top: auto;
+    margin-bottom: auto;
+    gap: 2rem;
+}
+
+.home-icons-square {
+    height: 45px;
+    width: 45px;
+    border: 1px solid var(--color-secondary-light-grey);
+    box-shadow:
+        0 2px 1px rgba(0, 0, 0, 0.05),
+        0 2px 3px rgba(0, 0, 0, 0.05),
+        0 4px 8px rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;        
+}
+
+.home-icons-square-hackerrank:visited, .home-icons-square-hackerrank:hover, .home-icons-square-hackerrank:link, .home-icons-square-hackerrank:active,
+.home-icons-square-github:visited, .home-icons-square-github:hover, .home-icons-square-github:link, .home-icons-square-github:active,
+.home-icons-square-linkedln:visited, .home-icons-square-linkedln:hover, .home-icons-square-linkedln:link, .home-icons-square-linkedln:active,
+.home-icons-square-medium:visited, .home-icons-square-medium:hover, .home-icons-square-medium:link, .home-icons-square-medium:active,
+.home-icons-square-kaggle:visited, .home-icons-square-kaggle:hover, .home-icons-square-kaggle:link, .home-icons-square-kaggle:active
+{
+    color: var(--color-main-dark-grey);    
+}
+
+.home-icons-square-hackerrank,
+.home-icons-square-github,
+.home-icons-square-linkedln,
+.home-icons-square-medium {
+    font-size: 2.25rem;
+    margin: auto;
+    padding-top: 3px;    
+}
+
+.home-icons-square-kaggle {
+    font-size: 2rem;
+    margin: auto;
+    padding-top: 5px;
+}
+
