@@ -15,11 +15,11 @@ function Footer() {
           <aside className='footer-main-aside'>
             <h1 className='footer-main-aside-title'>MÍDIAS</h1>
             <icon className='footer-main-aside-icons'>
-              <a href='https://www.hackerrank.com/profile/vinicius_nala' className='footer-main-aside-icons-hackerrank'><FaHackerrank size={iconsSize} /></a>
-              <a href='https://github.com/ViniciusNalaSantos' className='footer-main-aside-icons-github'><FaGithub size={iconsSize} /></a>
-              <a href='https://www.linkedin.com/in/viniciusnala/' className='footer-main-aside-icons-linkedln'><FaLinkedinIn size={iconsSize} /></a>
-              <a href='https://medium.com/@viniciusnala' className='footer-main-aside-icons-medium'><FaMediumM size={iconsSize} /></a>
-              <a href='https://www.kaggle.com/viniciusnalasantos' className='footer-main-aside-icons-kaggle'><FaKaggle size={iconsSize} /></a>
+              <a href='https://www.hackerrank.com/profile/vinicius_nala' className='footer-main-aside-icons-hackerrank'><FaHackerrank className='footer-main-aside-icons-hackerrank' /></a>
+              <a href='https://github.com/ViniciusNalaSantos' className='footer-main-aside-icons-github'><FaGithub /></a>
+              <a href='https://www.linkedin.com/in/viniciusnala/' className='footer-main-aside-icons-linkedln'><FaLinkedinIn /></a>
+              <a href='https://medium.com/@viniciusnala' className='footer-main-aside-icons-medium'><FaMediumM /></a>
+              <a href='https://www.kaggle.com/viniciusnalasantos' className='footer-main-aside-icons-kaggle'><FaKaggle /></a>
             </icon>
           </aside>
         </div>
