@@ -18,7 +18,11 @@ function Home() {
                 <div className="home-icons-square"><a href='https://medium.com/@viniciusnala' className='home-icons-square-medium'><FaMediumM /></a></div>
                 <div className="home-icons-square"><a href='https://www.kaggle.com/viniciusnalasantos' className='home-icons-square-kaggle'><FaKaggle /></a></div>
             </icon>
-            <div className="home-animation" />
+            <div className="home-arrow-animation" >
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
     )
 }
