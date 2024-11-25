@@ -17,8 +17,8 @@
     font-family: var(--font-family-main);
     align-items: center;
     justify-content: center;
-    min-height: 95vh; /*88vh*/
-    padding-top: 4rem;
+    min-height: 88vh; /*88vh*/
+    padding-top: 1rem;
 }
 
 .home-image {
@@ -56,10 +56,9 @@
 
 .home-icons {
     display: flex;
-    flex-direction: row;
-    margin-top: auto;
-    margin-bottom: auto;
+    flex-direction: row;    
     padding-top: 3%;
+    padding-bottom: 5%;
     gap: 2rem;
 }
 
@@ -99,10 +98,8 @@
     padding-top: 5px;
 }
 
-.home-arrow-animation {
-    margin-top: auto;
-    padding-top: 4%;
-    padding-bottom: 4%;
+.home-arrow-animation {    
+    padding-bottom: 2rem;
     transform: translate(-50%, -50%);
     transform: rotate(0deg);
     cursor: pointer;
