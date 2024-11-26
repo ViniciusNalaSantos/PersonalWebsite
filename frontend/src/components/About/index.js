@@ -8,9 +8,11 @@ function About() {
   return (
     <div className="about">
         <div className="about-main">
-            <h1>Então, quem sou eu?</h1>
-            <section>{text}<br /><br />{textContinuation}</section>
-            <button>CONTATO</button>
+          <div className="about-main-content">
+            <h1 className="about-main-content-title" >Então, quem sou eu?</h1>
+            <section className="about-main-content-text">{text}<br /><br />{textContinuation}</section>
+          </div>
+            <button className="about-main-button">CONTATO</button>
         </div>
         <img src={AboutImage} alt="Men seated on a chair" className="about-image"></img>
     </div>

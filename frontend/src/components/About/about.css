@@ -3,7 +3,8 @@
 :root {
     --font-family-main: "Nunito", sans-serif;
     --color-main-dark-grey: #4C4C4C;
-    --color-secondary-light-grey: #DBDBDB;
+    --color-secondary-white: #FFFFFF;
+    --color-tiertiary-light-grey: #DBDBDB;
 }
 
 * {
@@ -14,21 +15,77 @@
 .about {
     display: flex;
     flex-direction: row;
-    height: 100vh;
-    margin-left: 9vh;
-    margin-right: 9vh;    
+    min-height: 100vh;
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+    margin-left: 6vw;
+    margin-right: 6vw;    
     justify-content: space-between;
-    gap: 8%;
+    gap: 8%;    
 }
 
 .about-main {
     display: flex;
-    flex-flow: column;
+    flex-flow: column;    
     font-family: var(--font-family-main);
-    gap: 4%;    
+    gap: 18%;    
 }
 
+.about-main-content {
+    display: flex;
+    flex-flow: column;
+    gap: 2rem;       
+}
+
+.about-main-content-title {
+    font-size: 3.5rem;
+}
+
+.about-main-content-text {
+    font-size: 1.5rem;
+}
+
+.about-main-button {
+    background-color: #43B1F9;
+    font-size: 1.5rem;
+    color: var(--color-secondary-white);
+    border: 2rem;
+    width: 11vw;
+    height: 6.5vh;
+    align-self: center;
+    box-shadow:
+        0 2px 1px rgba(0, 0, 0, 0.25),
+        0 2px 3px rgba(0, 0, 0, 0.25),
+        0 4px 8px rgba(0, 0, 0, 0.25);
+    /* Boucing Button Animation */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.about-main-button:hover::before {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.about-main-button:active {
+    transform: scale(0.9);
+}
+
+.about-main-button:hover {
+    animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+  
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+
 .about-image {
-    height: 41.66vh;
-    width: 31.25vw;
+    height: 90vh;
 }
