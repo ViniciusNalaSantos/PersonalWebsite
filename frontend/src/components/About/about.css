@@ -42,13 +42,13 @@
 }
 
 .about-main-content-text {
-    font-size: 1.5rem;
+    font-size: 1.5rem;    
 }
 
 .about-main-button {
     background-color: #43B1F9;
     font-size: 1.5rem;
-    color: var(--color-secondary-white);
+    color: var(--color-secondary-white);    
     border: 2rem;
     width: 11vw;
     height: 6.5vh;
