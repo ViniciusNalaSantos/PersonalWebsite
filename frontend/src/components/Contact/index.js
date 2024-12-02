@@ -1,12 +1,14 @@
-import "./contact.css"
+import "./contact.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Form from 'react-bootstrap/Form';
+import Card from 'react-bootstrap/Card';
 
 function Contact() {
   return (
     <div>
         <div>
             <div>
-                <h1>Sinta-se livre para entrar</h1>
-                <h1>entrar em contato.</h1>
+                <h1>Sinta-se livre para entrar entrar em contato.</h1>
                 <h2>Seria ótimo conversar!</h2>
                 <section>Envie uma mensagem nas minhas mídias:</section>
                 <div>
@@ -25,9 +27,29 @@ function Contact() {
                 </div>
             </div>
         </div>
-        <div>
-            <h3>Mande uma mensagem!</h3>
-        </div>
+        <form>            
+            <Form>
+                <h2>Mande uma mensagem!</h2>
+
+                <Form.Group className="mb-3">                    
+                    <Form.Control placeholder="NOME*" />                    
+                </Form.Group>
+
+                <Form.Group className="mb-3">                    
+                    <Form.Control placeholder="EMAIL*" />                    
+                </Form.Group>
+
+                <Form.Group className="mb-3">                    
+                    <Form.Control placeholder="ASSUNTO*" />                    
+                </Form.Group>
+
+                <h3>Me conte sobre o que gostaria de conversar*:</h3>
+
+                <Form.Group className="mb-3">                    
+                    <Form.Control as="textarea" rows={4} />                    
+                </Form.Group>
+            </Form>
+        </form>            
     </div>
   )
 }
