@@ -4,6 +4,8 @@
     --color-main-dark-grey: #4C4C4C;
     --color-secondary-white: #FFFFFF;
     --color-detail-blue: #43B1F9;
+    --color-form-medium-grey: #636363;
+    --color-form-light-grey: #EDEDED;
     --font-family-main: "Nunito", sans-serif;
 }
 
@@ -18,7 +20,8 @@
     min-height: 100vh;
     padding-top: 6vh;    
     padding-left: 6vw;
-    padding-right: 6vw;    
+    padding-right: 6vw;
+    padding-bottom: 6vh;    
     justify-content: space-between;
     gap: 8%;
 }
@@ -84,4 +87,55 @@
 
 .contact-main-media-card-text-link {
     color: var(--color-detail-blue);
+}
+
+.contact-form {
+    margin-top: 5%;
+    color: var(--color-form-medium-grey);
+    border: 1px solid var(--color-secondary-light-grey);
+    box-shadow:
+        0 2px 1px rgba(0, 0, 0, 0.05),
+        0 2px 3px rgba(0, 0, 0, 0.05),
+        0 4px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 5%;
+}
+
+#contact-form-content {
+    height: 100%;
+    padding-left: 4.8%;
+    padding-right: 4.8%;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    display: flex;
+    flex-direction: column;
+    min-width: 36vw;
+}
+
+.contact-form-content-title {
+    font-size: 2rem;
+    padding-bottom: 5%;
+}
+
+.contact-form-content-name {
+    padding-bottom: 3.75%;
+}
+
+.contact-form-content-email {
+    padding-bottom: 3.75%;
+}
+
+.contact-form-content-subject {
+    padding-bottom: 5%;
+}
+
+.contact-form-content-subtitle {
+    font-size: 1.2rem;
+    padding-bottom: 3.75%;
+}
+
+#contact-form-content-button {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 10vw;
+    align-self: center;    
 }

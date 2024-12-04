@@ -1,6 +1,7 @@
 import "./contact.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Form from 'react-bootstrap/Form';
+import Button from 'react-bootstrap/Button';
 import {FaLinkedinIn} from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
@@ -28,27 +29,33 @@ function Contact() {
                     </div>
                 </div>
             </div>            
-        </div>                    
+        </div>                   
         <Form className="contact-form">
-            <h2 className="contact-form-title">Mande uma mensagem!</h2>
+            <div id="contact-form-content">
+                <h2 className="contact-form-content-title">Mande uma mensagem!</h2>
 
-            <Form.Group className="mb-3 contact-form-name">                    
-                <Form.Control placeholder="NOME*" />                    
-            </Form.Group>
+                <Form.Group className="mb-3 contact-form-content-name">                    
+                    <Form.Control placeholder="NOME*" />                    
+                </Form.Group>
 
-            <Form.Group className="mb-3 contact-form-email">                    
-                <Form.Control placeholder="EMAIL*" />                    
-            </Form.Group>
+                <Form.Group className="mb-3 contact-form-content-email">                    
+                    <Form.Control placeholder="EMAIL*" />                    
+                </Form.Group>
 
-            <Form.Group className="mb-3 contact-form-subject">                    
-                <Form.Control placeholder="ASSUNTO*" />                    
-            </Form.Group>
+                <Form.Group className="mb-3 contact-form-content-subject">                    
+                    <Form.Control placeholder="ASSUNTO*" />                    
+                </Form.Group>
 
-            <h3 className="contact-form-subtitle">Me conte sobre o que gostaria de conversar*:</h3>
+                <h3 className="contact-form-content-subtitle">Me conte sobre o que gostaria de conversar*:</h3>
 
-            <Form.Group className="mb-3 contact-form-text">                    
-                <Form.Control as="textarea" rows={4} />                    
-            </Form.Group>
+                <Form.Group className="mb-3 contact-form-content-text">                    
+                    <Form.Control as="textarea" rows={4} />                    
+                </Form.Group>
+
+                <Button variant="primary" type="submit" id="contact-form-content-button">
+                    Enviar
+                </Button>
+            </div>
         </Form>            
     </div>
   )
