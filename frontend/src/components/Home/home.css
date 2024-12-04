@@ -71,7 +71,8 @@
         0 2px 3px rgba(0, 0, 0, 0.05),
         0 4px 8px rgba(0, 0, 0, 0.05);
     display: flex;
-    align-items: center;        
+    align-items: center;
+    justify-content: center;        
 }
 
 .home-icons-square-hackerrank:visited, .home-icons-square-hackerrank:hover, .home-icons-square-hackerrank:link, .home-icons-square-hackerrank:active,
@@ -87,15 +88,11 @@
 .home-icons-square-github,
 .home-icons-square-linkedln,
 .home-icons-square-medium {
-    font-size: 2.25rem;
-    margin: auto;
-    padding-top: 3px;    
+    font-size: 2.25rem;    
 }
 
 .home-icons-square-kaggle {
     font-size: 2rem;
-    margin: auto;
-    padding-top: 5px;
 }
 
 .home-arrow-animation {    
