@@ -11,7 +11,7 @@ import { HashRouter, Routes, Route, BrowserRouter } from "react-router";
 function App() {
   return (
     <div className='body'>      
-      <HashRouter>
+      <BrowserRouter>
         <Banner />  
         <Routes>
           <Route path='/' element={ <Home /> } />
@@ -21,7 +21,7 @@ function App() {
           <Route path='*' element={<div>Página não encontrada</div>} />          
         </Routes>
         <Footer />
-      </HashRouter>      
+      </BrowserRouter>      
     </div>   
   );
 }
