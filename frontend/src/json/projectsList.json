@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "title": "Modelos ML Paramétricos x Não-paramétricos",
+        "subtitle": "Entendendo dois conceitos tão essenciais no mundo do Machine Learning"        
+    },
+    {
+        "id": 2,
+        "title": "Gradient Descent: Concept & Manual Python Implementation",
+        "subtitle": "Understanding Gradient Descent"        
+    },
+    {
+        "id": 3,
+        "title": "Clustering: Extracting Patterns From Data & Metrics + Cluster Validation [Pt.2]",
+        "subtitle": "Customers segmentation based on their credit card usage behavior"
+    },
+    {
+        "id": 4,
+        "title": "Clustering: Extracting Patterns from Data & Cluster Interpretation + Plotly [Pt.3]",
+        "subtitle": "Customers segmentation based on their credit card usage behavior"        
+    }
+]

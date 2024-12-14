@@ -40,21 +40,3 @@
     column-gap: 3vw;
     row-gap: 3.2vh;
 }
-
-.projects-cards-card {
-    width: 36.45vw;
-    min-height: 46vh;
-}
-
-.projects-cards-card-image {
-    height: 70%;
-}
-
-.projects-cards-card-title {
-    font-size: 2rem;
-}
-
-.projects-cards-card-subtitle {
-    font-size: 1rem;
-    color: var(--color-font-medium-grey);
-}

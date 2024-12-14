@@ -1,12 +1,6 @@
 import './projects.css';
 import Card from 'react-bootstrap/Card';
-/* Images imports */
-import {
-    ImageParametricNonParametric,
-    ImageGradientDescent,
-    ImageClustering2,
-    ImageClustering3
-} from '../Images'
+import ProjectsList from '../../json/projectsList.json';
 
 
 function Projects() {
@@ -16,7 +10,23 @@ function Projects() {
         <div id='projects'>
             <h1 id='projects-title'>Projetos</h1>
             <h2 id='projects-subtitle'>{subtitle}</h2>
-            <div id='projects-cards'>
+            <ul id='projects-cards'>
+                {ProjectsList.map( (project) => (
+                    <li key={project.id}>
+                        
+                    </li>
+                ))}
+
+                    <Card className='projects-cards-card'>
+                        <Card.Img variant="top" src={ImageParametricNonParametric} className='projects-cards-card-image' />
+                        <Card.Body>
+                            <Card.Title className='projects-cards-card-title'>Modelos ML Paramétricos x Não-paramétricos</Card.Title>
+                            <Card.Text className='projects-cards-card-subtitle'>
+                            Entendendo dois conceitos tão essenciais no mundo do Machine Learning
+                        </Card.Text>
+                        </Card.Body>
+                    </Card>
+
                 <Card className='projects-cards-card'>
                     <Card.Img variant="top" src={ImageParametricNonParametric} className='projects-cards-card-image' />
                     <Card.Body>
@@ -56,7 +66,7 @@ function Projects() {
                         </Card.Text>
                     </Card.Body>
                 </Card>
-            </div>
+            </ul>
         </div>
     )
 }
