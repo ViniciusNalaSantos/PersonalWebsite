@@ -1,5 +1,4 @@
-import "./home.css"
-import ProfileImage from "../../assets/jpg/linkedln_profile.jpg"
+import "./home.css";
 import { FaHackerrank , FaGithub, FaLinkedinIn, FaMediumM, FaKaggle } from "react-icons/fa";
 
 function Home() {
@@ -7,7 +6,7 @@ function Home() {
 
     return (
         <div className="home">
-            <img src={ProfileImage} alt="Profile photo" className="home-image" />
+            <img src={"/assets/jpg/linkedln_profile.jpg"} alt="Profile photo" className="home-image" />
             <h1 className="home-title" >Olá, eu sou o Vinícius.</h1>
             <h2 className="home-subtitle" >Estagiário em Engenharia de Software @ <b className="home-subtitle-company">Viasoft Korp</b></h2>
             <section className="home-text">{text}</section>

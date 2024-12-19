@@ -1,22 +1,52 @@
-[
+[   
     {
         "id": 1,
-        "title": "Modelos ML Paramétricos x Não-paramétricos",
-        "subtitle": "Entendendo dois conceitos tão essenciais no mundo do Machine Learning"        
+        "title": "Sending Automatic Email Through Python",
+        "subtitle": "A Simple and effective way of using Python to automate email sending."        
     },
     {
         "id": 2,
-        "title": "Gradient Descent: Concept & Manual Python Implementation",
-        "subtitle": "Understanding Gradient Descent"        
-    },
+        "title": "Machine Learning Model to Predict Survival in Titanic [Pt. 1]",
+        "subtitle": "ML Basics: Investigating the sinking of the Titanic"        
+    }, 
     {
         "id": 3,
+        "title": "Machine Learning Model to Predict Survival in Titanic [Pt.2]",
+        "subtitle": "ML Basics: Investigating the sinking of the Titanic"        
+    },
+    {
+        "id": 4,
+        "title": "Linear Regression: Advanced Modeling Techniques & Pipeline [Pt.1]",
+        "subtitle": "Kaggle Competition: Predicting House Sale Prices"        
+    },
+    {
+        "id": 5,
+        "title": "Linear Regression: Advanced Modeling Techniques & Pipeline [Pt.2]",
+        "subtitle": "Kaggle Competition: Predicting House Sale Prices"        
+    },
+    {
+        "id": 6,
+        "title": "Clustering: Extracting Patterns From Data & Concept + Feature Scaling + PCA [Pt.1]",
+        "subtitle": "Customers segmentation based on their credit card usage behavior"        
+    },
+    {
+        "id": 7,
         "title": "Clustering: Extracting Patterns From Data & Metrics + Cluster Validation [Pt.2]",
         "subtitle": "Customers segmentation based on their credit card usage behavior"
     },
     {
-        "id": 4,
+        "id": 8,
         "title": "Clustering: Extracting Patterns from Data & Cluster Interpretation + Plotly [Pt.3]",
         "subtitle": "Customers segmentation based on their credit card usage behavior"        
+    },
+    {
+        "id": 9,
+        "title": "Gradient Descent: Concept & Manual Python Implementation",
+        "subtitle": "Understanding Gradient Descent"        
+    },
+    {
+        "id": 10,
+        "title": "Modelos ML Paramétricos x Não-paramétricos",
+        "subtitle": "Entendendo dois conceitos tão essenciais no mundo do Machine Learning"        
     }
 ]

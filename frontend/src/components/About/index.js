@@ -1,5 +1,4 @@
 import "./about.css"
-import AboutImage from "../../assets/jpg/about_pic.jpg"
 
 function About() {
     const text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut malesuada ut odio bibendum posuere. Etiam varius fermentum enim, nec aliquet ipsum sodales ac. Praesent porttitor, dolor sed fermentum commodo, sapien odio tristique tellus, id condimentum nunc lorem eu enim. Proin ut eros ullamcorper, fermentum arcu suscipit, auctor orci. Proin et rutrum ipsum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec tortor diam, ultrices a placerat in, mollis ut est. Sed varius feugiat ultrices. Quisque id tincidunt dolor."
@@ -14,7 +13,7 @@ function About() {
           </div>
             <button className="about-main-button">CONTATO</button>
         </div>
-        <img src={AboutImage} alt="Men seated on a chair" className="about-image"></img>
+        <img src={"/assets/jpg/about_pic.jpg"} alt="Men seated on a chair" className="about-image"></img>
     </div>
   )
 }

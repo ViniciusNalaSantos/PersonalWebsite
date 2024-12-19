@@ -40,3 +40,8 @@
     column-gap: 3vw;
     row-gap: 3.2vh;
 }
+
+li {
+    list-style: none;
+    display: flex;
+}
