@@ -17,7 +17,7 @@ function ProjectPost() {
             <div>
                 <h1>{project.title}</h1>
                 <h2>{project.subtitle}</h2>
-                <Image src={`/assets/projects/${project.id}/card_photo.png`} />                
+                <Image src={`/images/projects/${project.id}/card_photo.png`} />                
                 <section>
                     <h3>Visão Geral</h3>
                     <p>{textoVisaoGeral}</p>

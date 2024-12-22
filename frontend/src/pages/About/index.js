@@ -13,7 +13,7 @@ function About() {
           </div>
             <button className="about-main-button">CONTATO</button>
         </div>
-        <img src={"/assets/jpg/about_pic.jpg"} alt="Men seated on a chair" className="about-image"></img>
+        <img src={"/images/jpg/about_pic.jpg"} alt="Men seated on a chair" className="about-image"></img>
     </div>
   )
 }
