@@ -1,6 +1,6 @@
 import './projects.css';
-import ProjectsList from '../../json/projectsList.json';
-import ProjectCard from '../ProjectCard';
+import ProjectsList from '../../assets/json/projectsList.json';
+import ProjectCard from '../../components/ProjectCard';
 
 
 function Projects() {

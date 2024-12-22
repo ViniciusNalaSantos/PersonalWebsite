@@ -1,6 +1,6 @@
 import { useParams } from 'react-router';
 import './projectPost.css';
-import ProjectsList from '../../json/projectsList.json';
+import ProjectsList from '../../assets/json/projectsList.json';
 import Image from 'react-bootstrap/Image';
 
 
