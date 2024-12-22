@@ -7,7 +7,7 @@ function Banner() {
   return (          
     <header className="banner">
         <nav className="banner-navigations">            
-            <BannerLink className="banner-navigations-home" to="/" >INÍCIO</BannerLink>
+            <BannerLink className="banner-navigations-home" to="/home" >INÍCIO</BannerLink>
             <BannerLink className="banner-navigations-about" to="/about" >SOBRE</BannerLink>
             <BannerLink className="banner-navigations-projects" to="/projects" >PROJETOS</BannerLink>
             <BannerLink className="banner-navigations-contact" to="/contact" >CONTATO</BannerLink>

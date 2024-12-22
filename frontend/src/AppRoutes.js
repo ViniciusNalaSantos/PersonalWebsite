@@ -10,8 +10,7 @@ import { HashRouter, Routes, Route, BrowserRouter, Navigate } from "react-router
 function AppRoutes() {
     return (
         <BrowserRouter>
-            <Banner />
-            <Navigate to='/home'/>  
+            <Banner />  
             <Routes>
                 <Route path='/home' element={ <div><Home /><About /><Contact /><Projects /></div> } />
                 <Route path='/about' element={ <About /> } />
