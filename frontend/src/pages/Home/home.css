@@ -60,39 +60,7 @@
     padding-top: 3%;
     padding-bottom: 5%;
     gap: 2rem;
-}
-
-.home-icons-square {
-    height: 45px;
-    width: 45px;
-    border: 1px solid var(--color-secondary-light-grey);
-    box-shadow:
-        0 2px 1px rgba(0, 0, 0, 0.05),
-        0 2px 3px rgba(0, 0, 0, 0.05),
-        0 4px 8px rgba(0, 0, 0, 0.05);
-    display: flex;
     align-items: center;
-    justify-content: center;        
-}
-
-.home-icons-square-hackerrank:visited, .home-icons-square-hackerrank:hover, .home-icons-square-hackerrank:link, .home-icons-square-hackerrank:active,
-.home-icons-square-github:visited, .home-icons-square-github:hover, .home-icons-square-github:link, .home-icons-square-github:active,
-.home-icons-square-linkedln:visited, .home-icons-square-linkedln:hover, .home-icons-square-linkedln:link, .home-icons-square-linkedln:active,
-.home-icons-square-medium:visited, .home-icons-square-medium:hover, .home-icons-square-medium:link, .home-icons-square-medium:active,
-.home-icons-square-kaggle:visited, .home-icons-square-kaggle:hover, .home-icons-square-kaggle:link, .home-icons-square-kaggle:active
-{
-    color: var(--color-main-dark-grey);    
-}
-
-.home-icons-square-hackerrank,
-.home-icons-square-github,
-.home-icons-square-linkedln,
-.home-icons-square-medium {
-    font-size: 2.25rem;    
-}
-
-.home-icons-square-kaggle {
-    font-size: 2rem;
 }
 
 .home-arrow-animation {    

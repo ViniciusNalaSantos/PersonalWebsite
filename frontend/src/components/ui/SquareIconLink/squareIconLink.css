@@ -1,0 +1,30 @@
+
+:root {
+    --color-secondary-light-grey: #DBDBDB;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.square {
+    height: 45px;
+    width: 45px;
+    border: 1px solid var(--color-secondary-light-grey);
+    box-shadow:
+        0 2px 1px rgba(0, 0, 0, 0.05),
+        0 2px 3px rgba(0, 0, 0, 0.05),
+        0 4px 8px rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;        
+}
+
+.square-icon {
+    font-size: 2.25rem;
+}
+
+.square-icon:visited, .square-icon:hover, .square-icon:link, .square-icon:active {
+    color: var(--color-main-dark-grey);
+}

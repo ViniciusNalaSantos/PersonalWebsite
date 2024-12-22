@@ -1,21 +1,23 @@
 import "./home.css";
 import { FaHackerrank , FaGithub, FaLinkedinIn, FaMediumM, FaKaggle } from "react-icons/fa";
+import Image from 'react-bootstrap/Image';
+import SquareIconLink from "../../components/ui/SquareIconLink";
 
 function Home() {
     const text = "Lorem ipsum dolor sit amet. Vel animi repudiandae et quos deleniti a unde quia. In aliquam eius hic illum blanditiis At velit alias a iste sunt qui laborum numquam hic illum excepturi. Est nihil voluptatum sit consequuntur harum sit tempora soluta."
 
     return (
         <div className="home">
-            <img src={"/images/jpg/linkedln_profile.jpg"} alt="Profile photo" className="home-image" />
+            <Image src={"/images/jpg/linkedln_profile.jpg"} alt="Profile photo" className="home-image"/>
             <h1 className="home-title" >Olá, eu sou o Vinícius.</h1>
             <h2 className="home-subtitle" >Estagiário em Engenharia de Software @ <b className="home-subtitle-company">Viasoft Korp</b></h2>
             <section className="home-text">{text}</section>
             <icon className="home-icons">
-                <div className="home-icons-square"><a href='https://www.hackerrank.com/profile/vinicius_nala' className='home-icons-square-hackerrank'><FaHackerrank /></a></div>
-                <div className="home-icons-square"><a href='https://github.com/ViniciusNalaSantos' className='home-icons-square-github'><FaGithub /></a></div>
-                <div className="home-icons-square"><a href='https://www.linkedin.com/in/viniciusnala/' className='home-icons-square-linkedln'><FaLinkedinIn /></a></div>
-                <div className="home-icons-square"><a href='https://medium.com/@viniciusnala' className='home-icons-square-medium'><FaMediumM /></a></div>
-                <div className="home-icons-square"><a href='https://www.kaggle.com/viniciusnalasantos' className='home-icons-square-kaggle'><FaKaggle /></a></div>
+                <SquareIconLink to='https://www.hackerrank.com/profile/vinicius_nala'><FaHackerrank /></SquareIconLink>
+                <SquareIconLink to='https://github.com/ViniciusNalaSantos'><FaGithub /></SquareIconLink>
+                <SquareIconLink to='https://www.linkedin.com/in/viniciusnala/'><FaLinkedinIn /></SquareIconLink>
+                <SquareIconLink to='https://medium.com/@viniciusnala'><FaMediumM /></SquareIconLink>
+                <SquareIconLink to='https://www.kaggle.com/viniciusnalasantos'><FaKaggle /></SquareIconLink>
             </icon>
             <div className="home-arrow-animation" >
                 <span></span>
