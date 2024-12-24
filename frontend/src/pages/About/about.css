@@ -21,20 +21,23 @@
     padding-left: 6vw;
     padding-right: 6vw;    
     justify-content: space-between;
-    gap: 8%;    
+    gap: 8%;
 }
 
 .about-main {
     display: flex;
     flex-flow: column;    
-    font-family: var(--font-family-main);
-    gap: 18%;    
+    font-family: var(--font-family-main);    
 }
 
 .about-main-content {
     display: flex;
     flex-flow: column;
     gap: 2rem;       
+}
+
+.about-main-div {
+    margin: auto;
 }
 
 .about-main-content-title {
@@ -44,30 +47,6 @@
 .about-main-content-text {
     font-size: 1.5rem;    
 }
-
-.about-main-button:hover::before {
-    transform: translate(-50%, -50%) scale(1);
-}
-
-.about-main-button:active {
-    transform: scale(0.9);
-}
-
-.about-main-button:hover {
-    animation: bounce 1s infinite;
-}
-
-@keyframes bounce {
-
-    0%,
-    100% {
-      transform: translateY(0);
-    }
-  
-    50% {
-      transform: translateY(-10px);
-    }
-  }
 
 .about-image {
     height: 90vh;

@@ -13,7 +13,9 @@ function About() {
             <h1 className="about-main-content-title" >Então, quem sou eu?</h1>
             <section className="about-main-content-text">{text}<br /><br />{textContinuation}</section>
           </div>
-            <StandardButton to='/contact' className='about-main-button'>CONTATO</StandardButton>
+          <div className="about-main-div">
+            <StandardButton to='/contact'>CONTATO</StandardButton>
+          </div>
         </div>
         <img src={"/images/jpg/about_pic.jpg"} alt="Men seated on a chair" className="about-image"></img>
     </div>    
