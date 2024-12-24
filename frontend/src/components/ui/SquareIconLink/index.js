@@ -1,8 +1,9 @@
 import './squareIconLink.css';
+import { Link } from "react-router";
 
 function SquareIconLink({children, to}) {
     return (
-        <div className="square"><a href={to} className='square-icon'>{children}</a></div>
+        <div className="square"><Link to={to} className='square-icon'>{children}</Link></div>
     )
 }
 

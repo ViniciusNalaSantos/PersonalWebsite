@@ -45,23 +45,6 @@
     font-size: 1.5rem;    
 }
 
-.about-main-button {
-    background-color: #43B1F9;
-    font-size: 1.5rem;
-    color: var(--color-secondary-white);    
-    border: 2rem;
-    width: 11vw;
-    height: 6.5vh;
-    align-self: center;
-    box-shadow:
-        0 2px 1px rgba(0, 0, 0, 0.25),
-        0 2px 3px rgba(0, 0, 0, 0.25),
-        0 4px 8px rgba(0, 0, 0, 0.25);
-    /* Boucing Button Animation */
-    cursor: pointer;
-    transition: background-color 0.3s, transform 0.3s;
-}
-
 .about-main-button:hover::before {
     transform: translate(-50%, -50%) scale(1);
 }

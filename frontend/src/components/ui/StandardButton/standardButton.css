@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+:root {
+    --font-family-main: "Nunito", sans-serif;
+    --color-secondary-white: #FFFFFF;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.standard-button {
+    text-align: center;   
+    background-color: #43B1F9;
+    font-size: 1.2rem;
+    border: 2rem;
+    width: 11vw;
+    height: 6.5vh;
+    align-self: center;
+    box-shadow:
+        0 2px 1px rgba(0, 0, 0, 0.25),
+        0 2px 3px rgba(0, 0, 0, 0.25),
+        0 4px 8px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
