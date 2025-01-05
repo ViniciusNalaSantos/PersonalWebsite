@@ -3,6 +3,7 @@
 :root {
     --font-family-main: "Nunito", sans-serif;
     --color-secondary-white: #FFFFFF;
+    --color-button: #0d6efd;
 }
 
 * {
@@ -14,16 +15,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #43B1F9;
+    color: var(--color-secondary-white);
+    background-color: var(--color-button);
     font-size: 1.2rem;
     border: 2rem;
     width: 11vw;
-    height: 6.5vh;    
-    align-self: center;
+    height: 6.5vh;
     box-shadow:
         0 2px 1px rgba(0, 0, 0, 0.25),
         0 2px 3px rgba(0, 0, 0, 0.25),
         0 4px 8px rgba(0, 0, 0, 0.25);
-    cursor: pointer;
-    transition: background-color 0.3s, transform 0.3s;
+}
+
+.standard-button:link {
+    display: flex;
+    justify-content: center;
 }
