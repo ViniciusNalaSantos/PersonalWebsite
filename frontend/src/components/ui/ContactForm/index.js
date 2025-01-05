@@ -24,14 +24,16 @@ function ContactForm() {
 
             <h3 className="contact-form-content-subtitle">Me conte sobre o que gostaria de conversar*:</h3>
 
-            <div className="contact-form-content-subject">
+            <div className="contact-form-content-text">
                 <FormField as='textarea' rows={4}></FormField>
             </div>
 
-            <StandardButton className='contact-form-content-button'>Enviar</StandardButton>
+            <div className='contact-form-content-button'>
+                <StandardButton>Enviar</StandardButton>
+            </div>
         </div>
     </Form>
   )
 }
 
-export default ContactForm
+export default ContactForm;
