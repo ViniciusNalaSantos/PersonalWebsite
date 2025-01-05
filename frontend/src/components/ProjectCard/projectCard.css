@@ -1,17 +1,28 @@
-.projects-cards-card {
-    width: 36.45vw;
-    min-height: 46vh;
+:root {
+    --color-main-dark-grey: #4C4C4C;
+    --color-secondary-white: #FFFFFF;
+    --color-font-medium-grey: #636363;
+    --font-family-main: "Nunito", sans-serif;
 }
 
-.projects-cards-card-image {
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.projects-link-card {
+    width: 100%;
+    height: 100%;
+}
+
+.projects-link-card-image {
     height: 70%;
 }
 
-.projects-cards-card-title {
-    font-size: 2rem;
+.projects-link-card-body {
+    height: 30%;
 }
 
-.projects-cards-card-subtitle {
-    font-size: 1rem;
+.projects-link-card-subtitle {
     color: var(--color-font-medium-grey);
 }

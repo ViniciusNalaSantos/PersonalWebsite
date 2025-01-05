@@ -1,6 +1,8 @@
 import './projects.css';
 import ProjectsList from '../../assets/json/projectsList.json';
 import ProjectCard from '../../components/ProjectCard';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 
 function Projects() {
@@ -10,13 +12,14 @@ function Projects() {
         <div id='projects'>
             <h1 id='projects-title'>Projetos</h1>
             <h2 id='projects-subtitle'>{subtitle}</h2>
-            <ul id='projects-cards'>
+            <Row xs={1} md={2} className="g-5 projects-cards">
                 {ProjectsList.slice().reverse().map( (project) => (
-                    <li key={project.id}>
+                    <Col key={project.id}>
                         <ProjectCard project={project}/>
-                    </li>
-                ))}               
-            </ul>
+                    </Col>
+                ))} 
+
+            </Row>
         </div>
     )
 }

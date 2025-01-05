@@ -32,16 +32,6 @@
     padding-bottom: 4vh;
 }
 
-#projects-cards {
-    width: 100%;
-    display: flex;    
-    flex-flow: row wrap;
-    justify-content: center;
-    column-gap: 3vw;
-    row-gap: 3.2vh;
-}
-
-li {
-    list-style: none;
-    display: flex;
+.projects-cards {
+    width: 85%;
 }
