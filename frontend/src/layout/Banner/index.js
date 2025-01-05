@@ -1,7 +1,7 @@
-import { LiaGlobeAmericasSolid } from "react-icons/lia";
-import { FaChevronDown } from "react-icons/fa6";
 import './banner.css';
-import BannerLink from "../../components/BannerLink";
+import { LiaGlobeAmericasSolid } from 'react-icons/lia';
+import BannerLink from '../../components/BannerLink';
+import BannerDropDown from '../../components/ui/BannerDropDown'
 
 function Banner() {
   return (          
@@ -14,10 +14,7 @@ function Banner() {
         </nav>
         <div className="banner-select-language">
           <LiaGlobeAmericasSolid size={'24'} />                 
-          <button className="banner-select-language-button">
-            PORTUGUÊS
-            <FaChevronDown className="banner-select-language-button-chevron" />
-          </button>
+          <BannerDropDown></BannerDropDown>
         </div>
     </header>
   )
