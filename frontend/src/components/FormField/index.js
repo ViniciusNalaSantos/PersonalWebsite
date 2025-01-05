@@ -1,8 +1,11 @@
+import './formField.css';
 import Form from 'react-bootstrap/Form';
 
-function FormField() {
+function FormField({ children, as, rows }) {
   return (
-    <div>FormField</div>
+      <Form.Group className="mb-3">                    
+        <Form.Control placeholder={children} as={as} rows={rows} />                    
+      </Form.Group>
   )
 }
 

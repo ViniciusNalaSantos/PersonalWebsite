@@ -1,6 +1,8 @@
+import './contactForm.css';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import StandardButton from '../StandardButton';
+import FormField from '../../FormField';
 
 function ContactForm() {
   return (
@@ -8,23 +10,23 @@ function ContactForm() {
         <div id="contact-form-content">
             <h2 className="contact-form-content-title">Mande uma mensagem!</h2>
 
-            <Form.Group className="mb-3 contact-form-content-name">                    
-                <Form.Control placeholder="NOME*" />                    
-            </Form.Group>
+            <div className="contact-form-content-name">
+                <FormField>NOME*</FormField>
+            </div>
 
-            <Form.Group className="mb-3 contact-form-content-email">                    
-                <Form.Control placeholder="EMAIL*" />                    
-            </Form.Group>
+            <div className="contact-form-content-email">
+                <FormField>EMAIL*</FormField>
+            </div>
 
-            <Form.Group className="mb-3 contact-form-content-subject">                    
-                <Form.Control placeholder="ASSUNTO*" />                    
-            </Form.Group>
+            <div className="contact-form-content-subject">
+                <FormField>ASSUNTO*</FormField>
+            </div>
 
             <h3 className="contact-form-content-subtitle">Me conte sobre o que gostaria de conversar*:</h3>
 
-            <Form.Group className="mb-3 contact-form-content-text">                    
-                <Form.Control as="textarea" rows={4} />                    
-            </Form.Group>
+            <div className="contact-form-content-subject">
+                <FormField as='textarea' rows={4}></FormField>
+            </div>
 
             <StandardButton className='contact-form-content-button'>Enviar</StandardButton>
         </div>
