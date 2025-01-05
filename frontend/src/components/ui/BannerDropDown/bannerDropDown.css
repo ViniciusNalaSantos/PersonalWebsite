@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+:root {
+    --color-main-dark-grey: #4C4C4C;
+    --color-secondary-white: #FFFFFF;
+    --font-family-main: "Nunito", sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.banner-dropdown-link {
+    font-size: 1.5rem;
+    line-height: 1.5em;
+}
+
+.banner-dropdown-link:visited, .banner-dropdown-link:link, .banner-dropdown-link:active {
+    color: var(--color-secondary-white);
+    text-decoration: none;
+}
+
+.banner-dropdown-link:hover {
+    font-weight: bold;
+}

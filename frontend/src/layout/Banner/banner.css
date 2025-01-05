@@ -43,17 +43,3 @@
     padding-right: 12vw;    
     background-color: var(--color-main-dark-grey);     
 }
-
-.banner-select-language-button { 
-    display: flex;
-    font-size: 1.5rem;
-    background-color: var(--color-main-dark-grey);
-    color: var(--color-secondary-white);
-    border: 0px;
-    flex-wrap: nowrap;
-    background-color: var(--color-main-dark-grey);
-}
-
-.banner-select-language-button-chevron {
-    padding-left: 3px;    
-}

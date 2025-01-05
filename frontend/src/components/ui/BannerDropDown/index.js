@@ -1,13 +1,35 @@
 import './bannerDropDown.css';
+import React from 'react';
 import Dropdown from 'react-bootstrap/Dropdown';
-import DropdownButton from 'react-bootstrap/DropdownButton';
 
 
 function BannerDropDown() {
+  // The forwardRef is important!!
+  // Dropdown needs access to the DOM node in order to position the Menu
+  const CustomToggle = React.forwardRef(({ children, onClick }, ref) => (
+    <a className='banner-dropdown-link'
+      href=""
+      ref={ref}
+      onClick={(e) => {
+        e.preventDefault();
+        onClick(e);
+      }}
+    >
+      {children}
+      &#x25bc;
+    </a>
+  ));
+
   return (
-    <DropdownButton id="dropdown-basic-button" title="LÍNGUA" variant="secondary" data-bs-theme="dark">
-      <Dropdown.Item href="#/action-1">PORTUGUÊS</Dropdown.Item>      
-    </DropdownButton>
+    <Dropdown>
+      <Dropdown.Toggle as={CustomToggle} id="dropdown-custom-components">
+        PORTUGUÊS
+      </Dropdown.Toggle>
+
+      <Dropdown.Menu>
+        <Dropdown.Item eventKey="1">PORTUGUÊS</Dropdown.Item>
+      </Dropdown.Menu>
+    </Dropdown>
   )
 }
 
