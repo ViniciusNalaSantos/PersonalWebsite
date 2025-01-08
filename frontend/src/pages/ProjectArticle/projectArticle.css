@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+:root {
+    --color-main-dark-grey: #4C4C4C;
+    --color-secondary-white: #FFFFFF;
+    --color-font-medium-grey: #636363;
+    --font-family-main: "Nunito", sans-serif;
+    --padding-between: 2.5%;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.project-article {
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+    padding-left: 6vw;
+    padding-right: 6vw;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-family-main);
+}
+
+.project-article-title {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.project-article-subtitle {
+    font-size: 2.5rem;
+    color: var(--color-font-medium-grey);
+    padding-bottom: var(--padding-between);
+}
+
+.project-article-image {
+    width: 50%;
+    align-self: center;
+    padding-bottom: var(--padding-between);
+}
+
+.project-article-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-article-section-title {
+    font-size: 2.5rem;
+}
+
+.project-article-section-text {
+    color: var(--color-font-medium-grey);
+    font-size: 1.5rem;
+    padding-bottom: var(--padding-between);
+}
+
