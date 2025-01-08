@@ -3,60 +3,170 @@
         "id": 1,
         "title": "Sending Automatic Email Through Python",
         "subtitle": "A Simple and effective way of using Python to automate email sending.",
-        "lastUpdate": "Jan 7, 2023"
+        "lastUpdate": "Jan 7, 2023",
+        "overview": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut malesuada ut odio bibendum posuere. Etiam varius fermentum enim, nec aliquet ipsum sodales ac. Praesent porttitor, dolor sed fermentum commodo, sapien odio tristique tellus, id condimentum nunc lorem eu enim. Proin ut eros ullamcorper, fermentum arcu suscipit, auctor orci. Proin et rutrum ipsum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec tortor diam, ultrices a placerat in, mollis ut est. Sed varius feugiat ultrices. Quisque id tincidunt dolor.",
+        "technologies": [
+            {
+                "language": "Python",
+                "percentage": 70
+            },
+            {
+                "language": "C#",
+                "percentage": 30
+            }
+        ]
     },
     {
         "id": 2,
         "title": "Machine Learning Model to Predict Survival in Titanic [Pt. 1]",
         "subtitle": "ML Basics: Investigating the sinking of the Titanic",
-        "lastUpdate": "Jan 22, 2023"        
+        "lastUpdate": "Jan 22, 2023",
+        "overview": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut malesuada ut odio bibendum posuere. Etiam varius fermentum enim, nec aliquet ipsum sodales ac. Praesent porttitor, dolor sed fermentum commodo, sapien odio tristique tellus, id condimentum nunc lorem eu enim. Proin ut eros ullamcorper, fermentum arcu suscipit, auctor orci. Proin et rutrum ipsum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec tortor diam, ultrices a placerat in, mollis ut est. Sed varius feugiat ultrices. Quisque id tincidunt dolor.",
+        "technologies": [
+            {
+                "language": "Python",
+                "percentage": 70
+            },
+            {
+                "language": "C#",
+                "percentage": 30
+            }
+        ]        
     }, 
     {
         "id": 3,
         "title": "Machine Learning Model to Predict Survival in Titanic [Pt.2]",
         "subtitle": "ML Basics: Investigating the sinking of the Titanic",
-        "lastUpdate": "Feb 1, 2023"        
+        "lastUpdate": "Feb 1, 2023",
+        "overview": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut malesuada ut odio bibendum posuere. Etiam varius fermentum enim, nec aliquet ipsum sodales ac. Praesent porttitor, dolor sed fermentum commodo, sapien odio tristique tellus, id condimentum nunc lorem eu enim. Proin ut eros ullamcorper, fermentum arcu suscipit, auctor orci. Proin et rutrum ipsum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec tortor diam, ultrices a placerat in, mollis ut est. Sed varius feugiat ultrices. Quisque id tincidunt dolor.",
+        "technologies": [
+            {
+                "language": "Python",
+                "percentage": 70
+            },
+            {
+                "language": "C#",
+                "percentage": 30
+            }
+        ]        
     },
     {
         "id": 4,
         "title": "Linear Regression: Advanced Modeling Techniques & Pipeline [Pt.1]",
         "subtitle": "Kaggle Competition: Predicting House Sale Prices",
-        "lastUpdate": "Feb 19, 2023"        
+        "lastUpdate": "Feb 19, 2023",
+        "overview": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut malesuada ut odio bibendum posuere. Etiam varius fermentum enim, nec aliquet ipsum sodales ac. Praesent porttitor, dolor sed fermentum commodo, sapien odio tristique tellus, id condimentum nunc lorem eu enim. Proin ut eros ullamcorper, fermentum arcu suscipit, auctor orci. Proin et rutrum ipsum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec tortor diam, ultrices a placerat in, mollis ut est. Sed varius feugiat ultrices. Quisque id tincidunt dolor.",
+        "technologies": [
+            {
+                "language": "Python",
+                "percentage": 70
+            },
+            {
+                "language": "C#",
+                "percentage": 30
+            }
+        ]        
     },
     {
         "id": 5,
         "title": "Linear Regression: Advanced Modeling Techniques & Pipeline [Pt.2]",
         "subtitle": "Kaggle Competition: Predicting House Sale Prices",
-        "lastUpdate": "Feb 27, 2023"        
+        "lastUpdate": "Feb 27, 2023",
+        "overview": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut malesuada ut odio bibendum posuere. Etiam varius fermentum enim, nec aliquet ipsum sodales ac. Praesent porttitor, dolor sed fermentum commodo, sapien odio tristique tellus, id condimentum nunc lorem eu enim. Proin ut eros ullamcorper, fermentum arcu suscipit, auctor orci. Proin et rutrum ipsum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec tortor diam, ultrices a placerat in, mollis ut est. Sed varius feugiat ultrices. Quisque id tincidunt dolor.",
+        "technologies": [
+            {
+                "language": "Python",
+                "percentage": 70
+            },
+            {
+                "language": "C#",
+                "percentage": 30
+            }
+        ]        
     },
     {
         "id": 6,
         "title": "Clustering: Extracting Patterns From Data & Concept + Feature Scaling + PCA [Pt.1]",
         "subtitle": "Customers segmentation based on their credit card usage behavior",
-        "lastUpdate": "Apr 2, 2023"        
+        "lastUpdate": "Apr 2, 2023",
+        "overview": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut malesuada ut odio bibendum posuere. Etiam varius fermentum enim, nec aliquet ipsum sodales ac. Praesent porttitor, dolor sed fermentum commodo, sapien odio tristique tellus, id condimentum nunc lorem eu enim. Proin ut eros ullamcorper, fermentum arcu suscipit, auctor orci. Proin et rutrum ipsum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec tortor diam, ultrices a placerat in, mollis ut est. Sed varius feugiat ultrices. Quisque id tincidunt dolor.",
+        "technologies": [
+            {
+                "language": "Python",
+                "percentage": 70
+            },
+            {
+                "language": "C#",
+                "percentage": 30
+            }
+        ]        
     },
     {
         "id": 7,
         "title": "Clustering: Extracting Patterns From Data & Metrics + Cluster Validation [Pt.2]",
         "subtitle": "Customers segmentation based on their credit card usage behavior",
-        "lastUpdate": "Apr 9, 2023"
+        "lastUpdate": "Apr 9, 2023",
+        "overview": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut malesuada ut odio bibendum posuere. Etiam varius fermentum enim, nec aliquet ipsum sodales ac. Praesent porttitor, dolor sed fermentum commodo, sapien odio tristique tellus, id condimentum nunc lorem eu enim. Proin ut eros ullamcorper, fermentum arcu suscipit, auctor orci. Proin et rutrum ipsum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec tortor diam, ultrices a placerat in, mollis ut est. Sed varius feugiat ultrices. Quisque id tincidunt dolor.",
+        "technologies": [
+            {
+                "language": "Python",
+                "percentage": 70
+            },
+            {
+                "language": "C#",
+                "percentage": 30
+            }
+        ]
     },
     {
         "id": 8,
         "title": "Clustering: Extracting Patterns from Data & Cluster Interpretation + Plotly [Pt.3]",
         "subtitle": "Customers segmentation based on their credit card usage behavior",
-        "lastUpdate": "Apr 23, 2023"        
+        "lastUpdate": "Apr 23, 2023",
+        "overview": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut malesuada ut odio bibendum posuere. Etiam varius fermentum enim, nec aliquet ipsum sodales ac. Praesent porttitor, dolor sed fermentum commodo, sapien odio tristique tellus, id condimentum nunc lorem eu enim. Proin ut eros ullamcorper, fermentum arcu suscipit, auctor orci. Proin et rutrum ipsum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec tortor diam, ultrices a placerat in, mollis ut est. Sed varius feugiat ultrices. Quisque id tincidunt dolor.",
+        "technologies": [
+            {
+                "language": "Python",
+                "percentage": 70
+            },
+            {
+                "language": "C#",
+                "percentage": 30
+            }
+        ]        
     },
     {
         "id": 9,
         "title": "Gradient Descent: Concept & Manual Python Implementation",
         "subtitle": "Understanding Gradient Descent",
-        "lastUpdate": "Jun 11, 2023"        
+        "lastUpdate": "Jun 11, 2023",
+        "overview": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut malesuada ut odio bibendum posuere. Etiam varius fermentum enim, nec aliquet ipsum sodales ac. Praesent porttitor, dolor sed fermentum commodo, sapien odio tristique tellus, id condimentum nunc lorem eu enim. Proin ut eros ullamcorper, fermentum arcu suscipit, auctor orci. Proin et rutrum ipsum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec tortor diam, ultrices a placerat in, mollis ut est. Sed varius feugiat ultrices. Quisque id tincidunt dolor.",
+        "technologies": [
+            {
+                "language": "Python",
+                "percentage": 70
+            },
+            {
+                "language": "C#",
+                "percentage": 30
+            }
+        ]        
     },
     {
         "id": 10,
         "title": "Modelos ML Paramétricos x Não-paramétricos",
         "subtitle": "Entendendo dois conceitos tão essenciais no mundo do Machine Learning",
-        "lastUpdate": "Feb 4, 2024"        
+        "lastUpdate": "Feb 4, 2024",
+        "overview": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut malesuada ut odio bibendum posuere. Etiam varius fermentum enim, nec aliquet ipsum sodales ac. Praesent porttitor, dolor sed fermentum commodo, sapien odio tristique tellus, id condimentum nunc lorem eu enim. Proin ut eros ullamcorper, fermentum arcu suscipit, auctor orci. Proin et rutrum ipsum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec tortor diam, ultrices a placerat in, mollis ut est. Sed varius feugiat ultrices. Quisque id tincidunt dolor.",
+        "technologies": [
+            {
+                "language": "Python",
+                "percentage": 70
+            },
+            {
+                "language": "C#",
+                "percentage": 30
+            }
+        ]        
     }
 ]
