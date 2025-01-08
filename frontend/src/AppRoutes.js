@@ -5,13 +5,14 @@ import Footer from './layout/Footer';
 import Contact from './pages/Contact';
 import Projects from './pages/Projects';
 import ProjectPost from './components/ProjectPost'; 
-import { HashRouter, Routes, Route, BrowserRouter, Navigate } from "react-router";
+import { HashRouter, Routes, Route, Navigate } from "react-router";
 
 function AppRoutes() {
     return (
-        <BrowserRouter>
+        <HashRouter>
             <Banner />  
             <Routes>
+                <Route path="/" element={<Navigate to="/home" />} />
                 <Route path='/home' element={ <div><Home /><About /><Contact /><Projects /></div> } />
                 <Route path='/about' element={ <About /> } />
                 <Route path='/contact' element={ <Contact /> } />
@@ -20,7 +21,7 @@ function AppRoutes() {
                 <Route path='*' element={<div>Página não encontrada</div>} />          
             </Routes>
             <Footer />
-        </BrowserRouter>
+        </HashRouter>
     )
 }
 
