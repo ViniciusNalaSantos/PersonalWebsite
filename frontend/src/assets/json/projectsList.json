@@ -8,11 +8,11 @@
         "technologies": [
             {
                 "language": "Python",
-                "percentage": 70
+                "percentage": 0.70
             },
             {
                 "language": "C#",
-                "percentage": 30
+                "percentage": 0.30
             }
         ]
     },
@@ -25,11 +25,11 @@
         "technologies": [
             {
                 "language": "Python",
-                "percentage": 70
+                "percentage": 0.70
             },
             {
                 "language": "C#",
-                "percentage": 30
+                "percentage": 0.30
             }
         ]        
     }, 
@@ -42,11 +42,11 @@
         "technologies": [
             {
                 "language": "Python",
-                "percentage": 70
+                "percentage": 0.70
             },
             {
                 "language": "C#",
-                "percentage": 30
+                "percentage": 0.30
             }
         ]        
     },
@@ -59,11 +59,11 @@
         "technologies": [
             {
                 "language": "Python",
-                "percentage": 70
+                "percentage": 0.70
             },
             {
                 "language": "C#",
-                "percentage": 30
+                "percentage": 0.30
             }
         ]        
     },
@@ -76,11 +76,11 @@
         "technologies": [
             {
                 "language": "Python",
-                "percentage": 70
+                "percentage": 0.70
             },
             {
                 "language": "C#",
-                "percentage": 30
+                "percentage": 0.30
             }
         ]        
     },
@@ -93,11 +93,11 @@
         "technologies": [
             {
                 "language": "Python",
-                "percentage": 70
+                "percentage": 0.70
             },
             {
                 "language": "C#",
-                "percentage": 30
+                "percentage": 0.30
             }
         ]        
     },
@@ -110,11 +110,11 @@
         "technologies": [
             {
                 "language": "Python",
-                "percentage": 70
+                "percentage": 0.70
             },
             {
                 "language": "C#",
-                "percentage": 30
+                "percentage": 0.30
             }
         ]
     },
@@ -127,11 +127,11 @@
         "technologies": [
             {
                 "language": "Python",
-                "percentage": 70
+                "percentage": 0.70
             },
             {
                 "language": "C#",
-                "percentage": 30
+                "percentage": 0.30
             }
         ]        
     },
@@ -144,11 +144,11 @@
         "technologies": [
             {
                 "language": "Python",
-                "percentage": 70
+                "percentage": 0.70
             },
             {
                 "language": "C#",
-                "percentage": 30
+                "percentage": 0.30
             }
         ]        
     },
@@ -161,11 +161,11 @@
         "technologies": [
             {
                 "language": "Python",
-                "percentage": 70
+                "percentage": 0.70
             },
             {
                 "language": "C#",
-                "percentage": 30
+                "percentage": 0.30
             }
         ]        
     }
