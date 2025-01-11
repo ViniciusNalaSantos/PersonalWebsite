@@ -31,7 +31,7 @@ function ProjectArticle() {
                     <p className='project-article-section-text'>{textoVisaoGeral}</p>
                 </section>
                 <section className='project-article-section'>
-                    <h3 className='project-article-section-title' id='technology-used'>Tecnologias Usadas</h3>
+                    <h3 className='project-article-section-title'>Tecnologias Usadas</h3>
                     <PieChart id='pie-chart'
                         series={[
                             {
@@ -49,8 +49,16 @@ function ProjectArticle() {
                               fontSize: 14,
                             },
                           }}
+                        margin={{ top: 75, bottom: 75, left: 75, right:75 }}
+                        slotProps={{
+                            legend: {
+                                direction: 'row',
+                                position: { vertical: 'bottom', horizontal: 'middle' },
+                                padding: 0,
+                            },
+                        }}                        
                         width={400}
-                        height={200}
+                        height={400}
                     />
                 </section>
             </div>

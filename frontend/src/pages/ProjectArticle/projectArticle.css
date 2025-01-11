@@ -55,10 +55,6 @@
     padding-bottom: var(--padding-between);
 }
 
-#technology-used {
-    padding-bottom: var(--padding-between);    
-}
-
 #pie-chart {
     align-self: center;
 }
