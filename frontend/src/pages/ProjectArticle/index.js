@@ -7,7 +7,7 @@ import { DefaultizedPieValueType } from '@mui/x-charts/models';
 import { ResponsiveChartContainer } from '@mui/x-charts/ResponsiveChartContainer';
 
 
-const getArcLabel = (params: DefaultizedPieValueType) => {
+const getArcLabel = (params) => {
     const percent = params.value / 100;
     return `${(percent * 100).toFixed(0)}%`;
   };
@@ -33,6 +33,7 @@ function ProjectArticle() {
                 <section className='project-article-section'>
                     <h3 className='project-article-section-title'>Tecnologias Usadas</h3>
                     <PieChart id='pie-chart'
+                        colors={['#001219', '#005f73', '#0a9396', '#94d2bd', '#e9d8a6', '#ee9b00', '#ca6702', '#bb3e03', '#ae2012', '#9b2226']}
                         series={[
                             {
                             data: project.technologies.map( (data) => (
