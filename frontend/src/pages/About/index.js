@@ -14,7 +14,7 @@ function About() {
             <section className="about-main-content-text">{text}<br /><br />{textContinuation}</section>
           </div>
           <div className="about-main-div">
-            <StandardButton to='/#/contact'>CONTATO</StandardButton>
+            <StandardButton to='/#/contact' type='reset'>CONTATO</StandardButton>
           </div>
         </div>
         <img src={"/images/jpg/about_pic.jpg"} alt="Men seated on a chair" className="about-image"></img>

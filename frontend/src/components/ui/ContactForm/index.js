@@ -1,7 +1,7 @@
 import './contactForm.css';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
-import StandardButton from '../StandardButton';
+import FormButton from '../FormButton';
 import FormField from '../../FormField';
 
 function ContactForm() {
@@ -29,7 +29,7 @@ function ContactForm() {
             </div>
 
             <div className='contact-form-content-button'>
-                <StandardButton>Enviar</StandardButton>
+                <FormButton>Enviar</FormButton>
             </div>
         </div>
     </Form>

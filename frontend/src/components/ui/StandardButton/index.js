@@ -2,9 +2,9 @@ import './standardButton.css';
 import Button from 'react-bootstrap/Button';
 
 
-function StandardButton({children, to}) {
+function StandardButton({children, to, type, onClick}) {
     return (        
-        <Button variant="primary" href={to} className='standard-button' type='reset'>{children}</Button>
+        <Button variant="primary" href={to} onClick={onClick} className='standard-button' type={type}>{children}</Button>
     )
 }
 
