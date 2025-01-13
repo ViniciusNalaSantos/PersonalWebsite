@@ -4,7 +4,8 @@ import About from './pages/About';
 import Footer from './layout/Footer';
 import Contact from './pages/Contact';
 import Projects from './pages/Projects';
-import ProjectArticle from './pages/ProjectArticle'; 
+import ProjectArticle from './pages/ProjectArticle';
+import NotFound from './pages/NotFound'; 
 import { HashRouter, Routes, Route, Navigate } from "react-router";
 
 function AppRoutes() {
@@ -18,7 +19,7 @@ function AppRoutes() {
                 <Route path='/contact' element={ <Contact /> } />
                 <Route path='/projects' element={ <Projects /> } />
                 <Route path='/projects/:id' element={ <ProjectArticle /> } />          
-                <Route path='*' element={<div>Página não encontrada</div>} />          
+                <Route path='*' element={ <NotFound /> } />          
             </Routes>
             <Footer />
         </HashRouter>
