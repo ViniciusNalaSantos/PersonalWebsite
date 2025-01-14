@@ -15,14 +15,6 @@
     height: 100%;
 }
 
-.projects-link-card-image {
-    height: 70%;
-}
-
-.projects-link-card-body {
-    height: 30%;
-}
-
 .projects-link-card-subtitle {
     color: var(--color-font-medium-grey);
 }

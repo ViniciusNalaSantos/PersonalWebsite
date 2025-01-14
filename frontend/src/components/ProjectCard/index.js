@@ -7,8 +7,8 @@ function ProjectCard({ project }) {
     return (
         <Link to={`/projects/${project.id}`} style={{ textDecoration: 'none' }} className='projects-link' >
             <Card className='projects-link-card'>
-                <Card.Img variant="top" src={`/images/projects/${project.id}/card_photo.png`} className='projects-link-card-image' />            
-                <Card.Body className='projects-link-card-body'>
+                <Card.Img variant="top" src={`/images/projects/${project.id}/card_photo.png`}/>            
+                <Card.Body>
                     <Card.Title>{project.title}</Card.Title>
                     <Card.Text>{project.subtitle}</Card.Text>
                 </Card.Body>
