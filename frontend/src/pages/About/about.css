@@ -25,30 +25,28 @@
 }
 
 .about-main {
+    height: 85vh;
     display: flex;
     flex-flow: column;    
-    font-family: var(--font-family-main);    
+    font-family: var(--font-family-main);
+    justify-content: center;
+    gap: 2rem;
 }
 
-.about-main-content {
-    display: flex;
-    flex-flow: column;
-    gap: 2rem;       
-}
-
-.about-main-div {
-    margin: auto;
+.about-main-button {
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 2rem;
 }
 
-.about-main-content-title {
+.about-main-title {
     font-size: 3.5rem;
 }
 
-.about-main-content-text {
+.about-main-text {
     font-size: 1.5rem;    
 }
 
 .about-image {
-    height: 90vh;
+    height: 85vh;
 }

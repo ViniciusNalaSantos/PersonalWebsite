@@ -1,5 +1,6 @@
 import "./about.css";
 import StandardButton from "../../components/ui/StandardButton";
+import Image from 'react-bootstrap/Image';
 
 function About() {
     const text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut malesuada ut odio bibendum posuere. Etiam varius fermentum enim, nec aliquet ipsum sodales ac. Praesent porttitor, dolor sed fermentum commodo, sapien odio tristique tellus, id condimentum nunc lorem eu enim. Proin ut eros ullamcorper, fermentum arcu suscipit, auctor orci. Proin et rutrum ipsum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec tortor diam, ultrices a placerat in, mollis ut est. Sed varius feugiat ultrices. Quisque id tincidunt dolor."
@@ -9,15 +10,13 @@ function About() {
     <>
     <div className="about">
         <div className="about-main">
-          <div className="about-main-content">
-            <h1 className="about-main-content-title" >Então, quem sou eu?</h1>
-            <section className="about-main-content-text">{text}<br /><br />{textContinuation}</section>
-          </div>
-          <div className="about-main-div">
+          <h1 className="about-main-title" >Então, quem sou eu?</h1>
+          <section className="about-main-text">{text}</section>
+          <div className="about-main-button">
             <StandardButton to='/#/contact' type='reset'>CONTATO</StandardButton>
           </div>
         </div>
-        <img src={"/images/jpg/about_pic.jpg"} alt="Men seated on a chair" className="about-image"></img>
+        <Image src={"/images/jpg/about_pic.jpg"} alt="Men seated on a chair" className="about-image"></Image>
     </div>    
     </>
   )
