@@ -1,10 +1,8 @@
-import { useParams } from 'react-router';
 import './projectArticle.css';
+import { Navigate, useParams } from 'react-router';
 import ProjectsList from '../../assets/json/projectsList.json';
 import Image from 'react-bootstrap/Image';
 import { PieChart, pieArcLabelClasses } from '@mui/x-charts/PieChart';
-import { DefaultizedPieValueType } from '@mui/x-charts/models';
-import { ResponsiveChartContainer } from '@mui/x-charts/ResponsiveChartContainer';
 
 
 const getArcLabel = (params) => {
@@ -20,6 +18,10 @@ function ProjectArticle() {
     const project = ProjectsList.find( (project) => {
         return project.id === Number(param.id)
     })
+
+    if (project == null) {
+        return (<Navigate to='/notFound' />)
+    }    
 
         return (
             <div className='project-article'>
