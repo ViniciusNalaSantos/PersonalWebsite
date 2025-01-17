@@ -33,6 +33,10 @@
     background-color: var(--color-main-dark-grey);  
 }
 
+.banner-navigations-menu {
+    display: none;
+}
+
 .banner-select-language {
     display: flex;
     align-items: center;     
@@ -42,4 +46,28 @@
     flex-flow: row;
     padding-right: 12vw;    
     background-color: var(--color-main-dark-grey);     
+}
+
+@media only screen and (max-width: 980px) {
+
+    .banner-link {
+        display: none;
+    }
+
+    .banner-navigations-menu {
+        display: block;
+    }
+
+}
+
+@media only screen and (max-width: 1136px) {
+
+    .banner-navigations {
+        padding-left: 6vw;
+    }
+
+    .banner-select-language {
+        padding-right: 6vw;        
+    }
+
 }

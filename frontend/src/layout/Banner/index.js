@@ -1,22 +1,28 @@
 import './banner.css';
 import { LiaGlobeAmericasSolid } from 'react-icons/lia';
+import { LuMenu } from "react-icons/lu";
 import BannerLink from '../../components/BannerLink';
-import BannerDropDown from '../../components/ui/BannerDropDown'
+import BannerDropDown from '../../components/ui/BannerDropDown';
+import SideBar from '../SideBar';
 
 function Banner() {
-  return (          
-    <header className="banner">
-        <nav className="banner-navigations">            
-            <BannerLink className="banner-navigations-home" to="/home" >INÍCIO</BannerLink>
-            <BannerLink className="banner-navigations-about" to="/about" >SOBRE</BannerLink>
-            <BannerLink className="banner-navigations-projects" to="/projects" >PROJETOS</BannerLink>
-            <BannerLink className="banner-navigations-contact" to="/contact" >CONTATO</BannerLink>
+  return (
+    <>
+      <header className="banner">
+        <nav className="banner-navigations">
+          <LuMenu className='banner-navigations-menu' onClick={null}/>            
+          <BannerLink to="/home" >INÍCIO</BannerLink>
+          <BannerLink to="/about" >SOBRE</BannerLink>
+          <BannerLink to="/projects" >PROJETOS</BannerLink>
+          <BannerLink to="/contact" >CONTATO</BannerLink>
         </nav>
         <div className="banner-select-language">
-          <LiaGlobeAmericasSolid size={'24'} />                 
+          <LiaGlobeAmericasSolid />
           <BannerDropDown></BannerDropDown>
         </div>
-    </header>
+      </header>
+      <SideBar />
+    </>
   )
 }
 

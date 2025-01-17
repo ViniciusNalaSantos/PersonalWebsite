@@ -1,7 +1,4 @@
-.banner-navigations-home:visited, .banner-navigations-home:hover, .banner-navigations-home:link, .banner-navigations-home:active,
-.banner-navigations-about:visited, .banner-navigations-about:hover, .banner-navigations-about:link, banner-navigations-about:active,
-.banner-navigations-projects:visited, .banner-navigations-projects:hover, .banner-navigations-projects:link, .banner-navigations-projects:active,
-.banner-navigations-contact:visited, .banner-navigations-contact:hover, .banner-navigations-contact:link, .banner-navigations-contact:active {
+.banner-link:visited, .banner-link:hover, .banner-link:link, .banner-link:active {
     color: var(--color-secondary-white);
     text-decoration: none;
 }
