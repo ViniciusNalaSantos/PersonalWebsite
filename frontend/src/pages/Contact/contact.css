@@ -94,11 +94,40 @@
     padding-bottom: 3.75%;
 }
 
+.contact-form-content-subtitle {
+    font-size: 1.2rem;
+    padding-bottom: 3.75%;
+}
+
 .contact-form-content-subject {
     padding-bottom: 5%;
 }
 
-.contact-form-content-subtitle {
-    font-size: 1.2rem;
-    padding-bottom: 3.75%;
+@media only screen and (max-width: 480px) {
+
+    .contact-form {
+        display: none;
+    }
+
+    #contact-main-title {
+        font-size: 2.5rem;    
+    }
+    
+    #contact-main-subtitle {
+        font-size: 2rem;
+    }
+    
+    #contact-main-media {
+        font-size: 1.2rem;
+        padding-left: 1rem;
+    }
+
+}
+
+@media only screen and (max-width: 980px) {
+
+    .contact-form {
+        display: none;
+    }
+
 }

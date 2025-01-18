@@ -26,3 +26,10 @@
 .media-card-text-link{
     color: var(--color-detail-blue);
 }
+
+@media only screen and (max-width: 480px) {
+    
+    .media-card-text {
+        font-size: 0.8rem;
+    }
+}
