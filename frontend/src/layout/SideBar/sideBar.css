@@ -23,10 +23,14 @@
 }
 
 .side-bar-top {
-    width: 300px;
+    width: 275px;
     min-height: 12vh;
     display: flex;
     justify-content: flex-end;
+}
+
+.side-bar-top-button {
+    width: 30%;
 }
 
 .side-bar-nav:hover {
