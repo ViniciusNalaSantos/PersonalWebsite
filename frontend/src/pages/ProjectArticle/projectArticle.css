@@ -5,7 +5,7 @@
     --color-secondary-white: #FFFFFF;
     --color-font-medium-grey: #636363;
     --font-family-main: "Nunito", sans-serif;
-    --padding-between: 2.5%;
+    --padding-between: 5vh;
 }
 
 * {
@@ -57,5 +57,29 @@
 
 #pie-chart {
     align-self: center;
+    padding-bottom: var(--padding-between);
 }
 
+.project-article-section-link {
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 980px) {
+
+    .project-article-title {
+        font-size: 2.5rem;
+    }
+
+    .project-article-subtitle {
+        font-size: 1.5rem;
+    }
+
+    .project-article-section-title {
+        font-size: 1.5rem;
+    }
+    
+    .project-article-section-text {
+        font-size: 1rem;
+    }
+
+}

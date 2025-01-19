@@ -1,5 +1,5 @@
 import './projectArticle.css';
-import { Navigate, useParams } from 'react-router';
+import { Link, Navigate, useParams } from 'react-router';
 import ProjectsList from '../../assets/json/projectsList.json';
 import Image from 'react-bootstrap/Image';
 import { PieChart, pieArcLabelClasses } from '@mui/x-charts/PieChart';
@@ -63,6 +63,9 @@ function ProjectArticle() {
                         width={400}
                         height={400}
                     />
+                </section>
+                <section className='project-article-section'>
+                <Link className='project-article-section-link' to={{ pathname: "https://herewecode.io/" }} target="_blank">[Link projeto]</Link>                    
                 </section>
             </div>
         )
