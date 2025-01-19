@@ -19,7 +19,7 @@
     color: var(--color-secondary-white);
     height: auto;
     min-height: 40vh;    
-    width: 100vw;        
+    width: 100vw;     
 }
 
 .footer-main {
@@ -41,8 +41,6 @@
     font-size: 1.5rem;
     line-height: 1.5em;
     font-weight: bold;
-    font-size: 1.5rem;
-    line-height: 1.5em;
 }
 
 .footer-main-primary-text {
@@ -82,22 +80,37 @@
 }
 
 .footer-copyright-link:visited, .footer-copyright-link:hover, .footer-copyright-link:link, .footer-copyright-link:active,
-.footer-main-aside-icons-hackerrank:visited, .footer-main-aside-icons-hackerrank:hover, .footer-main-aside-icons-hackerrank:link, .footer-main-aside-icons-hackerrank:active,
-.footer-main-aside-icons-github:visited, .footer-main-aside-icons-github:hover, .footer-main-aside-icons-github:link, .footer-main-aside-icons-github:active,
-.footer-main-aside-icons-linkedln:visited, .footer-main-aside-icons-linkedln:hover, .footer-main-aside-icons-linkedln:link, .footer-main-aside-icons-linkedln:active,
-.footer-main-aside-icons-medium:visited, .footer-main-aside-icons-medium:hover, .footer-main-aside-icons-medium:link, .footer-main-aside-icons-medium:active,
-.footer-main-aside-icons-kaggle:visited, .footer-main-aside-icons-kaggle:hover, .footer-main-aside-icons-kaggle:link, .footer-main-aside-icons-kaggle:active
+.footer-main-aside-icons-icon:visited, .footer-main-aside-icons-icon:hover, .footer-main-aside-icons-icon:link, .footer-main-aside-icons-icon:active
 {
     color: var(--color-secondary-white);    
 }
 
-.footer-main-aside-icons-hackerrank,
-.footer-main-aside-icons-github,
-.footer-main-aside-icons-linkedln,
-.footer-main-aside-icons-medium {
+.footer-main-aside-icons-icon {
     font-size: 1.5rem;
 }
 
-.footer-main-aside-icons-kaggle {
-    font-size: 1.35rem;
+@media only screen and (max-width: 980px) {
+
+    .footer-main {
+        flex-direction: column;        
+    }
+
+    .footer-main-aside {
+        align-self: flex-start;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+    }
+
+    .footer-main-primary-title, .footer-main-aside-title {
+        font-size: 1rem;
+    }
+
+    .footer-main-primary-text {
+        font-size: 1rem;
+    }
+
+    .footer-main-aside-icons-icon {
+        font-size: 1rem;
+    }
+
 }
