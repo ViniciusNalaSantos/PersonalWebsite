@@ -13,12 +13,11 @@
 }
 
 .about {
-    overflow-y: hidden;
+    overflow-y: auto;
     display: flex;
     flex-direction: row;
     min-height: 100vh;
     padding-top: 6vh;
-    padding-bottom: 6vh;
     padding-left: 6vw;
     padding-right: 6vw;    
     justify-content: space-between;
@@ -26,7 +25,6 @@
 }
 
 .about-main {
-    height: 100vh;
     display: flex;
     flex-flow: column;    
     font-family: var(--font-family-main);
@@ -42,6 +40,7 @@
 
 .about-image {
     height: 85vh;
+    align-self: center;
 }
 
 @media only screen and (max-width: 980px) {
@@ -64,14 +63,18 @@
 
 }
 
-@media only screen and (min-width: 980px) {
+@media only screen and (min-width: 981px) {
 
     .about-main-title {
-        font-size: 2.5rem;
+        font-size: 1.5rem;
     }
     
     .about-main-text {
-        font-size: 1.5rem;    
+        font-size: 1rem;    
+    }
+
+    .about-image {
+        height: 65vh;        
     }
 
 }
