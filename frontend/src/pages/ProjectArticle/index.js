@@ -65,7 +65,7 @@ function ProjectArticle() {
                     />
                 </section>
                 <section className='project-article-section'>
-                <Link className='project-article-section-link' to={{ pathname: "https://herewecode.io/" }} target="_blank">[Link projeto]</Link>                    
+                <a className='project-article-section-link' href={project.url}>[Link projeto]</a>                    
                 </section>
             </div>
         )
