@@ -30,12 +30,12 @@ function ProjectArticle() {
                 <Image className=' project-article-image' src={`/images/projects/${project.id}/card_photo.png`} />                
                 <section className='project-article-section'>
                     <h3 className='project-article-section-title'>Visão Geral</h3>
-                    <p className='project-article-section-text'>{textoVisaoGeral}</p>
+                    <p className='project-article-section-text'>{project.overview}</p>
                 </section>
                 <section className='project-article-section'>
                     <h3 className='project-article-section-title'>Tecnologias Usadas</h3>
                     <PieChart id='pie-chart'
-                        colors={['#001219', '#005f73', '#0a9396', '#94d2bd', '#e9d8a6', '#ee9b00', '#ca6702', '#bb3e03', '#ae2012', '#9b2226']}
+                        colors={['#005f73', '#001219', '#0a9396', '#94d2bd', '#e9d8a6', '#ee9b00', '#ca6702', '#bb3e03', '#ae2012', '#9b2226']}
                         series={[
                             {
                             data: project.technologies.map( (data) => (

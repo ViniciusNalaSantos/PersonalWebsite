@@ -4,179 +4,255 @@
         "title": "Sending Automatic Email Through Python",
         "subtitle": "A Simple and effective way of using Python to automate email sending.",
         "lastUpdate": "Jan 7, 2023",
-        "overview": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut malesuada ut odio bibendum posuere. Etiam varius fermentum enim, nec aliquet ipsum sodales ac. Praesent porttitor, dolor sed fermentum commodo, sapien odio tristique tellus, id condimentum nunc lorem eu enim. Proin ut eros ullamcorper, fermentum arcu suscipit, auctor orci. Proin et rutrum ipsum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec tortor diam, ultrices a placerat in, mollis ut est. Sed varius feugiat ultrices. Quisque id tincidunt dolor.",
+        "overview": "Meu primeiro projeto profissional, nele ensino a enviar e-mail através de código python, para todos os tipos de e-mails: Gmail, Outlook, Hotmail, entre outros. Nesta época estava começando a adentrar no mundo da programação, estava ainda no primeiro ano de faculdade.",
         "technologies": [
             {
                 "language": "Python",
-                "percentage": 0.70
-            },
-            {
-                "language": "C#",
-                "percentage": 0.30
-            }
+                "percentage": 1.00
+            }   
         ],
-        "url":  "www.google.com"
+        "url":  "https://medium.com/@viniciusnala/sending-automatic-email-through-python-e7a941c9ee36"
     },
     {
         "id": 2,
         "title": "Machine Learning Model to Predict Survival in Titanic [Pt. 1]",
         "subtitle": "ML Basics: Investigating the sinking of the Titanic",
         "lastUpdate": "Jan 22, 2023",
-        "overview": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut malesuada ut odio bibendum posuere. Etiam varius fermentum enim, nec aliquet ipsum sodales ac. Praesent porttitor, dolor sed fermentum commodo, sapien odio tristique tellus, id condimentum nunc lorem eu enim. Proin ut eros ullamcorper, fermentum arcu suscipit, auctor orci. Proin et rutrum ipsum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec tortor diam, ultrices a placerat in, mollis ut est. Sed varius feugiat ultrices. Quisque id tincidunt dolor.",
+        "overview": "Projeto em que entro na competição mais básica da comunidade Kaggle, para colocar meus conhecimentos em prática a respeito de Machine Learning e análise de dados. Como essa é apenas a primeira parte do projeto, foquei mais em análise de dados.",
         "technologies": [
             {
                 "language": "Python",
-                "percentage": 0.70
+                "percentage": 0.45
             },
             {
-                "language": "C#",
-                "percentage": 0.30
+                "language": "Pandas",
+                "percentage": 0.25
+            },
+            {
+                "language": "Matplotlib",
+                "percentage": 0.15
+            },
+            {
+                "language": "Seaborn",
+                "percentage": 0.15
             }
         ],
-        "url":  "www.google.com"        
+        "url":  "https://medium.com/@viniciusnala/machine-learning-model-to-predict-survival-in-titanic-pt-1-b3681d1794fb"        
     }, 
     {
         "id": 3,
         "title": "Machine Learning Model to Predict Survival in Titanic [Pt.2]",
         "subtitle": "ML Basics: Investigating the sinking of the Titanic",
-        "lastUpdate": "Feb 1, 2023",
-        "overview": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut malesuada ut odio bibendum posuere. Etiam varius fermentum enim, nec aliquet ipsum sodales ac. Praesent porttitor, dolor sed fermentum commodo, sapien odio tristique tellus, id condimentum nunc lorem eu enim. Proin ut eros ullamcorper, fermentum arcu suscipit, auctor orci. Proin et rutrum ipsum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec tortor diam, ultrices a placerat in, mollis ut est. Sed varius feugiat ultrices. Quisque id tincidunt dolor.",
+        "lastUpdate": "Fev 1, 2023",
+        "overview": "Segunda parte do projeto em que participo de uma competição de Machine Learning da comunidade Kaggle, nesta parte dou mais ênfase no desenvolvimento de modelos de aprendizado de máquina.",
         "technologies": [
             {
                 "language": "Python",
-                "percentage": 0.70
+                "percentage": 0.40
             },
             {
-                "language": "C#",
-                "percentage": 0.30
+                "language": "Pandas",
+                "percentage": 0.20
+            },
+            {
+                "language": "SkLearn",
+                "percentage": 0.40
             }
         ],
-        "url":  "www.google.com"        
+        "url":  "https://medium.com/@viniciusnala/machine-learning-model-to-predict-survival-in-titanic-pt-2-d0a01c1106bd"        
     },
     {
         "id": 4,
         "title": "Linear Regression: Advanced Modeling Techniques & Pipeline [Pt.1]",
         "subtitle": "Kaggle Competition: Predicting House Sale Prices",
-        "lastUpdate": "Feb 19, 2023",
-        "overview": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut malesuada ut odio bibendum posuere. Etiam varius fermentum enim, nec aliquet ipsum sodales ac. Praesent porttitor, dolor sed fermentum commodo, sapien odio tristique tellus, id condimentum nunc lorem eu enim. Proin ut eros ullamcorper, fermentum arcu suscipit, auctor orci. Proin et rutrum ipsum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec tortor diam, ultrices a placerat in, mollis ut est. Sed varius feugiat ultrices. Quisque id tincidunt dolor.",
+        "lastUpdate": "Fev 19, 2023",
+        "overview": "Primeira parte de um projeto em que participo da competição da comunidade Kaggle, nela procuro explorar minhas habilidade dentro do mundo do Machine Learning, mais especifícamente nos algoritmos de regressão linear.",
         "technologies": [
             {
                 "language": "Python",
-                "percentage": 0.70
+                "percentage": 0.45
             },
             {
-                "language": "C#",
+                "language": "Seaborn",
                 "percentage": 0.30
+            },
+            {
+                "language": "Pandas",
+                "percentage": 0.25
             }
         ],
-        "url":  "www.google.com"        
+        "url":  "https://medium.com/@viniciusnala/linear-regression-advanced-modeling-techniques-pipeline-pt-1-3c0433230b88"        
     },
     {
         "id": 5,
         "title": "Linear Regression: Advanced Modeling Techniques & Pipeline [Pt.2]",
         "subtitle": "Kaggle Competition: Predicting House Sale Prices",
-        "lastUpdate": "Feb 27, 2023",
-        "overview": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut malesuada ut odio bibendum posuere. Etiam varius fermentum enim, nec aliquet ipsum sodales ac. Praesent porttitor, dolor sed fermentum commodo, sapien odio tristique tellus, id condimentum nunc lorem eu enim. Proin ut eros ullamcorper, fermentum arcu suscipit, auctor orci. Proin et rutrum ipsum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec tortor diam, ultrices a placerat in, mollis ut est. Sed varius feugiat ultrices. Quisque id tincidunt dolor.",
+        "lastUpdate": "Fev 27, 2023",
+        "overview": "Segunda parte de um projeto em que participo da competição da comunidade Kaggle, nela procuro explorar minhas habilidade dentro do mundo do Machine Learning, mais especifícamente nos algoritmos de regressão linear.",
         "technologies": [
             {
                 "language": "Python",
-                "percentage": 0.70
+                "percentage": 0.25
             },
             {
-                "language": "C#",
-                "percentage": 0.30
+                "language": "SkLearn",
+                "percentage": 0.40
+            },
+            {
+                "language": "StatsModels",
+                "percentage": 0.20
+            },
+            {
+                "language": "Pandas",
+                "percentage": 0.15
             }
         ],
-        "url":  "www.google.com"        
+        "url":  "https://medium.com/@viniciusnala/linear-regression-advanced-modeling-techniques-pipeline-pt-2-de50caad4302"        
     },
     {
         "id": 6,
         "title": "Clustering: Extracting Patterns From Data & Concept + Feature Scaling + PCA [Pt.1]",
         "subtitle": "Customers segmentation based on their credit card usage behavior",
-        "lastUpdate": "Apr 2, 2023",
-        "overview": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut malesuada ut odio bibendum posuere. Etiam varius fermentum enim, nec aliquet ipsum sodales ac. Praesent porttitor, dolor sed fermentum commodo, sapien odio tristique tellus, id condimentum nunc lorem eu enim. Proin ut eros ullamcorper, fermentum arcu suscipit, auctor orci. Proin et rutrum ipsum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec tortor diam, ultrices a placerat in, mollis ut est. Sed varius feugiat ultrices. Quisque id tincidunt dolor.",
+        "lastUpdate": "Abr 2, 2023",
+        "overview": "Primeira de três partes de um projeto de Machine Learning em que busco segmentar clientes baseando-se no comportamento do cartão de crédito deles, nele dou mais foco nos modelos de clustering de Machine Learning. É um dos maiores projetos que já fiz, tanto que tive que dividir ele em três partes.",
         "technologies": [
             {
                 "language": "Python",
-                "percentage": 0.70
+                "percentage": 0.25
             },
             {
-                "language": "C#",
-                "percentage": 0.30
+                "language": "Numpy",
+                "percentage": 0.10
+            },
+            {
+                "language": "Pandas",
+                "percentage": 0.15
+            },
+            {
+                "language": "Matplotlib",
+                "percentage": 0.20
+            },
+            {
+                "language": "SkLearn",
+                "percentage": 0.15
+            },
+            {
+                "language": "Plotly",
+                "percentage": 0.15
             }
         ],
-        "url":  "www.google.com"        
+        "url":  "https://medium.com/@viniciusnala/clustering-extracting-patterns-from-data-concept-feature-scaling-pca-pt-1-4f33c6d39a71"        
     },
     {
         "id": 7,
         "title": "Clustering: Extracting Patterns From Data & Metrics + Cluster Validation [Pt.2]",
         "subtitle": "Customers segmentation based on their credit card usage behavior",
-        "lastUpdate": "Apr 9, 2023",
-        "overview": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut malesuada ut odio bibendum posuere. Etiam varius fermentum enim, nec aliquet ipsum sodales ac. Praesent porttitor, dolor sed fermentum commodo, sapien odio tristique tellus, id condimentum nunc lorem eu enim. Proin ut eros ullamcorper, fermentum arcu suscipit, auctor orci. Proin et rutrum ipsum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec tortor diam, ultrices a placerat in, mollis ut est. Sed varius feugiat ultrices. Quisque id tincidunt dolor.",
+        "lastUpdate": "Abr 9, 2023",
+        "overview": "Segunda de três partes de um projeto de Machine Learning, nessa parte busco extrair padrões de clientes baseando-se na utilização do cartão de crédito deles, nele dou mais foco nos modelos de clustering de Machine Learning. É um dos maiores projetos que já fiz, tanto que tive que dividir ele em três partes.",
         "technologies": [
             {
                 "language": "Python",
-                "percentage": 0.70
+                "percentage": 0.25
             },
             {
-                "language": "C#",
-                "percentage": 0.30
+                "language": "Numpy",
+                "percentage": 0.10
+            },
+            {
+                "language": "Pandas",
+                "percentage": 0.15
+            },
+            {
+                "language": "Matplotlib",
+                "percentage": 0.20
+            },
+            {
+                "language": "SkLearn",
+                "percentage": 0.15
+            },
+            {
+                "language": "Seaborn",
+                "percentage": 0.15
             }
         ],
-        "url":  "www.google.com"
+        "url":  "https://medium.com/@viniciusnala/clustering-extracting-patterns-from-data-metrics-cluster-validation-pt-2-dd2ce0a3405d"
     },
     {
         "id": 8,
         "title": "Clustering: Extracting Patterns from Data & Cluster Interpretation + Plotly [Pt.3]",
         "subtitle": "Customers segmentation based on their credit card usage behavior",
-        "lastUpdate": "Apr 23, 2023",
-        "overview": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut malesuada ut odio bibendum posuere. Etiam varius fermentum enim, nec aliquet ipsum sodales ac. Praesent porttitor, dolor sed fermentum commodo, sapien odio tristique tellus, id condimentum nunc lorem eu enim. Proin ut eros ullamcorper, fermentum arcu suscipit, auctor orci. Proin et rutrum ipsum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec tortor diam, ultrices a placerat in, mollis ut est. Sed varius feugiat ultrices. Quisque id tincidunt dolor.",
+        "lastUpdate": "Abr 23, 2023",
+        "overview": "Terceira de três partes de um projeto de Machine Learning, nessa parte busco extrair padrões de clientes baseando-se na utilização do cartão de crédito deles e interpretar os resultados obtidos com modelos de clustering. É um dos maiores projetos que já fiz, tanto que tive que dividir ele em três partes.",
         "technologies": [
             {
                 "language": "Python",
-                "percentage": 0.70
+                "percentage": 0.25
             },
             {
-                "language": "C#",
-                "percentage": 0.30
+                "language": "Numpy",
+                "percentage": 0.10
+            },
+            {
+                "language": "Pandas",
+                "percentage": 0.15
+            },
+            {
+                "language": "Matplotlib",
+                "percentage": 0.10
+            },
+            {
+                "language": "SkLearn",
+                "percentage": 0.15
+            },
+            {
+                "language": "Seaborn",
+                "percentage": 0.15
+            },
+            {
+                "language": "Plotly",
+                "percentage": 0.10
             }
         ],
-        "url":  "www.google.com"        
+        "url":  "https://medium.com/@viniciusnala/clustering-extracting-patterns-from-data-cluster-interpretation-plotly-pt-3-26ac4be4326a"        
     },
     {
         "id": 9,
         "title": "Gradient Descent: Concept & Manual Python Implementation",
         "subtitle": "Understanding Gradient Descent",
         "lastUpdate": "Jun 11, 2023",
-        "overview": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut malesuada ut odio bibendum posuere. Etiam varius fermentum enim, nec aliquet ipsum sodales ac. Praesent porttitor, dolor sed fermentum commodo, sapien odio tristique tellus, id condimentum nunc lorem eu enim. Proin ut eros ullamcorper, fermentum arcu suscipit, auctor orci. Proin et rutrum ipsum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec tortor diam, ultrices a placerat in, mollis ut est. Sed varius feugiat ultrices. Quisque id tincidunt dolor.",
+        "overview": "Artigo escrito com o intuito de explicar como se dá a optimização de modelos de Machine Learning por meio do método Gradient Descent, conceito fundamental para entendimento de como uma máquina consegue \"aprender\" com uma entrada de dados fornecida. Nessa época eu ja tinha lido bons livros que tratavam de Machine Learning e estatística, então estava apto a explicar conceitos mais complexos.",
         "technologies": [
             {
                 "language": "Python",
-                "percentage": 0.70
+                "percentage": 0.40
             },
             {
-                "language": "C#",
-                "percentage": 0.30
+                "language": "Pandas",
+                "percentage": 0.20
+            },
+            {
+                "language": "Numpy",
+                "percentage": 0.20
+            },
+            {
+                "language": "Sympy",
+                "percentage": 0.20
             }
         ],
-        "url":  "www.google.com"        
+        "url":  "https://medium.com/@viniciusnala/gradient-descent-concept-manual-python-implementation-d8c5f96a6e85"        
     },
     {
         "id": 10,
         "title": "Modelos ML Paramétricos x Não-paramétricos",
         "subtitle": "Entendendo dois conceitos tão essenciais no mundo do Machine Learning",
-        "lastUpdate": "Feb 4, 2024",
-        "overview": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut malesuada ut odio bibendum posuere. Etiam varius fermentum enim, nec aliquet ipsum sodales ac. Praesent porttitor, dolor sed fermentum commodo, sapien odio tristique tellus, id condimentum nunc lorem eu enim. Proin ut eros ullamcorper, fermentum arcu suscipit, auctor orci. Proin et rutrum ipsum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec tortor diam, ultrices a placerat in, mollis ut est. Sed varius feugiat ultrices. Quisque id tincidunt dolor.",
+        "lastUpdate": "Fev 4, 2024",
+        "overview": "Artigo escrito com o objetivo de explicar modelos paramétricos e não paramétricos, demonstrando de forma clara o que é o Bias-Variance Trade Off na prática, que para mim é o conceito mais fundamental no mundo do Machine Learning, todos que queiram se adentrar no mundo do Machine Learning, Deep Learning, e Inteligência Artificial, é indispensável o domínio deste conceito. Julguei tão importante, que dediquei um artigo em específico só para ele.",
         "technologies": [
             {
                 "language": "Python",
-                "percentage": 0.70
-            },
-            {
-                "language": "C#",
-                "percentage": 0.30
+                "percentage": 1.00
             }
         ],
-        "url":  "https://www.google.com.br/?hl=pt-BR"        
+        "url":  "https://medium.com/@viniciusnala/modelos-ml-param%C3%A9tricos-x-n%C3%A3o-param%C3%A9tricos-0cc68e1a82aa"        
     }
 ]
