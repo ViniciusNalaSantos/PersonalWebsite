@@ -1,15 +1,14 @@
 import './footer.css'
 import { FaHackerrank , FaGithub, FaLinkedinIn, FaMediumM, FaKaggle } from "react-icons/fa";
+import Text from '../../assets/json/texts.json';
 
 function Footer() {
-    const text = 'Lorem ipsum dolor sit amet. Vel animi repudiandae et quos deleniti a unde quia. In aliquam eius hic illum blanditiis.'
-
   return (
     <footer className='footer'>
         <div className='footer-main'>
           <div className='footer-main-primary'>
             <h2 className='footer-main-primary-title'><b>VINÍCIUS NALA</b></h2>
-            <section className='footer-main-primary-text'>{text}</section>
+            <section className='footer-main-primary-text'>{Text.footerText}</section>
           </div>          
           <aside className='footer-main-aside'>
             <h2 className='footer-main-aside-title'>MÍDIAS</h2>
