@@ -217,6 +217,46 @@
     },
     {
         "id": 9,
+        "title": "Dashboard Tableau: Latin America Inflation Analysis",
+        "subtitle": "Analysing the inflation between Latin America countries",
+        "lastUpdate": "Mai 06, 2023",
+        "overview": "Dashboard criado com o intuito de demonstrar minhas habilidades de visualização de dados na ferramenta Tableau.",
+        "technologies": [
+            {
+                "language": "Tableau",
+                "percentage": 1.00
+            }
+        ],
+        "url":  "https://public.tableau.com/app/profile/vinicius.nala/viz/LatinAmericaInflationAnalysis/Painel2#1"        
+    },
+    {
+        "id": 10,
+        "title": "Deep Learning: Perceptron Learning",
+        "subtitle": "Creating a perceptron from zero with and without library",
+        "lastUpdate": "Mai 06, 2023",
+        "overview": "Perceptron is one of the simplest artificial neural network architectures, used for binary classification. I did this project in the beggining of my studies of deep learning, so I tried to create a perceptron from zero without library, and another with Tensorflow.",
+        "technologies": [
+            {
+                "language": "Python",
+                "percentage": 0.50
+            },
+            {
+                "language": "Numpy",
+                "percentage": 0.20
+            },
+            {
+                "language": "Tensorflow",
+                "percentage": 0.20
+            },
+            {
+                "language": "Matplotlib",
+                "percentage": 0.10
+            }
+        ],
+        "url":  "https://github.com/ViniciusNalaSantos/DL_Perceptron_Learning"        
+    },
+    {
+        "id": 11,
         "title": "Gradient Descent: Concept & Manual Python Implementation",
         "subtitle": "Understanding Gradient Descent",
         "lastUpdate": "Jun 11, 2023",
@@ -242,7 +282,21 @@
         "url":  "https://medium.com/@viniciusnala/gradient-descent-concept-manual-python-implementation-d8c5f96a6e85"        
     },
     {
-        "id": 10,
+        "id": 12,
+        "title": "Java: Consulta Situação Cadastral Sintegra",
+        "subtitle": "Algoritmo em Java que consulta a situação cadastral de uma empresa na Sefaz com base no CNPJ.",
+        "lastUpdate": "Out 12, 2024",
+        "overview": "Algoritmo simples em java que consome uma API que faz consulta da situação cadastral de empresas na Sefaz com base no CNPJ.",
+        "technologies": [
+            {
+                "language": "Java",
+                "percentage": 1.00
+            }
+        ],
+        "url":  "https://github.com/ViniciusNalaSantos/Java_Api_Sintegra/tree/main"        
+    },
+    {
+        "id": 13,
         "title": "Modelos ML Paramétricos x Não-paramétricos",
         "subtitle": "Entendendo dois conceitos tão essenciais no mundo do Machine Learning",
         "lastUpdate": "Fev 4, 2024",
@@ -254,5 +308,19 @@
             }
         ],
         "url":  "https://medium.com/@viniciusnala/modelos-ml-param%C3%A9tricos-x-n%C3%A3o-param%C3%A9tricos-0cc68e1a82aa"        
+    },
+    {
+        "id": 14,
+        "title": "Delphi: Smart Pointers Implementation",
+        "subtitle": "Smart Pointers Concept Applied to Delphi",
+        "lastUpdate": "Fev 4, 2024",
+        "overview": "Applying the concept of smart pointers, that I found on Marcos Cantu writtings, in a real world example.",
+        "technologies": [
+            {
+                "language": "Delphi",
+                "percentage": 1.00
+            }
+        ],
+        "url":  "https://github.com/ViniciusNalaSantos/Delphi_Smart_Pointers"        
     }
 ]
