@@ -1,7 +1,7 @@
 import { Link, useLocation } from "react-router";
 import "./bannerLink.css";
 
-function BannerLink({children, className, to }) {
+function BannerLink({children, to }) {
     const location = useLocation();
 
     return (

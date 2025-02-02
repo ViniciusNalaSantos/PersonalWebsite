@@ -1,5 +1,4 @@
 import './mediaCard.css';
-import {FaLinkedinIn} from "react-icons/fa";
 import Card from 'react-bootstrap/Card';
 
 

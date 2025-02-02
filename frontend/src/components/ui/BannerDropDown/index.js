@@ -4,8 +4,6 @@ import Dropdown from 'react-bootstrap/Dropdown';
 
 
 function BannerDropDown() {
-  // The forwardRef is important!!
-  // Dropdown needs access to the DOM node in order to position the Menu
   const CustomToggle = React.forwardRef(({ children, onClick }, ref) => (
     <a className='banner-dropdown-link'
       href=""
