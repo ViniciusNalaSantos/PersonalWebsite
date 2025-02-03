@@ -3,11 +3,13 @@ import { FaHackerrank , FaGithub, FaLinkedinIn, FaMediumM, FaKaggle } from "reac
 import Image from 'react-bootstrap/Image';
 import SquareIconLink from "../../components/ui/SquareIconLink";
 import Text from '../../assets/json/texts.json';
+import PublicEnvironmentUrl from '../../assets/json/environmentVariables.json';
+
 
 function Home() {
     return (
         <div className="home">
-            <Image src={"/images/jpg/linkedln_profile.jpg"} alt="Profile photo" className="home-image"/>
+            <Image src={`${PublicEnvironmentUrl.PublicEnvironmentUrl}/images/jpg/linkedln_profile.jpg`} alt="Profile photo" className="home-image"/>
             <h1 className="home-title" >Olá, eu sou o Vinícius.</h1>
             <h2 className="home-subtitle" >Estagiário em Engenharia de Software @ <b className="home-subtitle-company">Viasoft Korp</b></h2>
             <section className="home-text">{Text.homeText}</section>

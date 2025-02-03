@@ -2,6 +2,7 @@ import "./about.css";
 import StandardButton from "../../components/ui/StandardButton";
 import Image from 'react-bootstrap/Image';
 import Text from '../../assets/json/texts.json';
+import PublicEnvironmentUrl from '../../assets/json/environmentVariables.json';
 
 function About() {
     const paragraphs = Text.aboutText.split('\n');
@@ -18,7 +19,7 @@ function About() {
             <StandardButton to='/#/contact' type='reset'>CONTATO</StandardButton>
           </div>
         </div>
-        <Image src={"/images/jpg/about_pic.jpg"} alt="Men seated on a chair" className="about-image"></Image>
+        <Image src={`${PublicEnvironmentUrl.PublicEnvironmentUrl}/images/jpg/about_pic.jpg`} alt="Men seated on a chair" className="about-image"></Image>
     </div>    
     </>
   )
