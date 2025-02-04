@@ -19,7 +19,7 @@ function About() {
             <StandardButton to='/#/contact' type='reset'>CONTATO</StandardButton>
           </div>
         </div>
-        <Image src={`./${PublicEnvironmentUrl.PublicEnvironmentUrl}/images/jpg/about_pic.jpg`} alt="Men seated on a chair" className="about-image"></Image>
+        <Image src={`./images/jpg/aboutpic.jpg`} alt="Men seated on a chair" className="about-image"></Image>
     </div>    
     </>
   )
