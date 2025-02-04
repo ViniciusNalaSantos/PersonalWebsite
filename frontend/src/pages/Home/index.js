@@ -3,7 +3,6 @@ import { FaHackerrank , FaGithub, FaLinkedinIn, FaMediumM, FaKaggle } from "reac
 import Image from 'react-bootstrap/Image';
 import SquareIconLink from "../../components/ui/SquareIconLink";
 import Text from '../../assets/json/texts.json';
-import PublicEnvironmentUrl from '../../assets/json/environmentVariables.json';
 
 
 function Home() {
