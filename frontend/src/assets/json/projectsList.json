@@ -322,5 +322,35 @@
             }
         ],
         "url":  "https://github.com/ViniciusNalaSantos/Delphi_Smart_Pointers"        
+    },
+    {
+        "id": 15,
+        "title": "Deploy de Aplicação Completa na Oracle Cloud Infrastructure — Next FIAP 2024",
+        "subtitle": "Artigo sobre a história e desenvolvimento do projeto apresentado no evento Next FIAP 2024",
+        "lastUpdate": "Fev 4, 2024",
+        "overview": "Conto um pouco sobre como foi o desenvolvimento do projeto que foi para o evento Next FIAP 2024, como se deu nossa solução, sua arquitetura, e contar ainda os troubleshooting feitos em alguns problemas que surgiram ao longo do caminho. Este texto poderá ser considerado sob certo ponto de vista, como uma história do projeto, pois não apenas abordo o lado técnico, como também mostro um pouco os dramas que tivemos enquanto grupo.",
+        "technologies": [
+            {
+                "language": "Oracle Cloud Infraestructure",
+                "percentage": 0.50
+            },
+            {
+                "language": "Java",
+                "percentage": 0.125
+            },
+            {
+                "language": "React",
+                "percentage": 0.20
+            },
+            {
+                "language": "Spring",
+                "percentage": 0.125
+            },
+            {
+                "language": "Docker",
+                "percentage": 0.05
+            }
+        ],
+        "url":  "https://medium.com/@viniciusnala/deploy-de-aplica%C3%A7%C3%A3o-completa-na-oracle-cloud-infrastructure-next-fiap-2024-b654b29d9aa9"        
     }
 ]
