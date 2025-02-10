@@ -25,7 +25,7 @@ function ProjectArticle() {
             <div className='project-article'>
                 <h1 className='project-article-title'>{project.title}</h1>
                 <h2 className='project-article-subtitle'>{project.subtitle}</h2>
-                <Image className=' project-article-image' src={`/images/projects/${project.id}/card_photo.png`} />                
+                <Image className=' project-article-image' src={`./images/projects/${project.id}/card_photo.png`} />                
                 <section className='project-article-section'>
                     <h3 className='project-article-section-title'>Visão Geral</h3>
                     <p className='project-article-section-text'>{project.overview}</p>
