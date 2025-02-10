@@ -327,7 +327,7 @@
         "id": 15,
         "title": "Deploy de Aplicação Completa na Oracle Cloud Infrastructure — Next FIAP 2024",
         "subtitle": "Artigo sobre a história e desenvolvimento do projeto apresentado no evento Next FIAP 2024",
-        "lastUpdate": "Fev 4, 2024",
+        "lastUpdate": "Fev 9, 2024",
         "overview": "Conto um pouco sobre como foi o desenvolvimento do projeto que foi para o evento Next FIAP 2024, como se deu nossa solução, sua arquitetura, e contar ainda os troubleshooting feitos em alguns problemas que surgiram ao longo do caminho. Este texto poderá ser considerado sob certo ponto de vista, como uma história do projeto, pois não apenas abordo o lado técnico, como também mostro um pouco os dramas que tivemos enquanto grupo.",
         "technologies": [
             {
