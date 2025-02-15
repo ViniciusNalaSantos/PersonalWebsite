@@ -1,11 +1,5 @@
-
 :root {
     --color-secondary-light-grey: #DBDBDB;
-}
-
-* {
-    padding: 0;
-    margin: 0;
 }
 
 .square {

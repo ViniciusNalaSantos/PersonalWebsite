@@ -3,11 +3,6 @@
     --color-secondary-white: #FFFFFF;
 }
 
-* {
-   margin: 0; 
-   padding: 0;    
-}
-
 .banner {
     background-color: var(--color-main-dark-grey);
     color: var(--color-secondary-white);    

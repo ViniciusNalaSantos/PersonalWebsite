@@ -4,11 +4,6 @@
     --color-secondary-white: #FFFFFF;
 }
 
-* {
-   margin: 0; 
-   padding: 0;    
-}
-
 .side-bar {
     background-color: var(--color-main-dark-grey);
     color: var(--color-secondary-white);

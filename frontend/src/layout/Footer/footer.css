@@ -3,11 +3,6 @@
     --color-secondary-white: #FFFFFF;
 }
 
-* {
-    padding: 0;
-    margin: 0;
-}
-
 .footer {
     display: flex;
     flex-direction: column;

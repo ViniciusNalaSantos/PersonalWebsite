@@ -3,11 +3,6 @@
     --color-form-medium-grey: #636363;
 }
 
-* {
-    padding: 0;
-    margin: 0;
-}
-
 .not-found {
     display: flex;
     flex-direction: column;
