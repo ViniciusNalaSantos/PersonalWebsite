@@ -1,9 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
-
 :root {
     --color-main-dark-grey: #4C4C4C;
     --color-secondary-white: #FFFFFF;
-    --font-family-main: "Nunito", sans-serif;
 }
 
 * {
@@ -18,7 +15,6 @@
     display: flex;
     font-size: 1.5rem;
     line-height: 1.5em;
-    font-family: var(--font-family-main);
     width: 100%;
     justify-content: space-between;
     box-shadow: 4px 0px 4px 0px #000;                 

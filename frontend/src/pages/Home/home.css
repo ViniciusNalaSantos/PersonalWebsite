@@ -1,7 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
-
 :root {
-    --font-family-main: "Nunito", sans-serif;
     --color-main-dark-grey: #4C4C4C;
     --color-secondary-light-grey: #DBDBDB;
 }
@@ -14,7 +11,6 @@
 .home {
     display: flex;
     flex-flow: column;
-    font-family: var(--font-family-main);
     align-items: center;
     justify-content: center;
     min-height: 88vh;

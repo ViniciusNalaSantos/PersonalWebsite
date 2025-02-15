@@ -1,15 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+
+
 :root {
     --color-font-medium-grey: #636363;
 }
 
-* {
-    margin: 0%;
-    padding: 0%;
+.h5 {
+    font-weight: 600; 
 }
 
 .projects-link-card {
     width: 100%;
     height: 100%;
+       
 }
 
 .projects-link-card-subtitle {

@@ -1,9 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
-
 :root {
     --color-main-dark-grey: #4C4C4C;
     --color-form-light-grey: #EDEDED;
-    --font-family-main: "Nunito", sans-serif;
 }
 
 * {
@@ -14,7 +11,6 @@
 .form-control {
     border: 0px solid;
     background-color: var(--color-form-light-grey);
-    font-family: var(--font-family-main);
 }
 
 .form-control:focus {

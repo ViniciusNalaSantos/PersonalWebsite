@@ -1,9 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
-
-:root {
-    --font-family-main: "Nunito", sans-serif;
-}
-
 * {
     padding: 0;
     margin: 0;
@@ -24,8 +18,7 @@
 
 .about-main {
     display: flex;
-    flex-flow: column;    
-    font-family: var(--font-family-main);
+    flex-flow: column;
     justify-content: center;
     gap: 2rem;
 }

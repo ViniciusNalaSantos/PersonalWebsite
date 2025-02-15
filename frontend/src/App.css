@@ -1,6 +1,10 @@
-.body {    
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+.app {    
     overflow-x: hidden;
     overflow-y: auto;
     box-sizing: border-box;
-    height: auto; 
+    height: auto;
+    font-family: "Nunito", sans-serif;
 }

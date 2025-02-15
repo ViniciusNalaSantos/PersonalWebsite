@@ -1,9 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
-
 :root {
     --color-main-dark-grey: #4C4C4C;
     --color-secondary-white: #FFFFFF;
-    --font-family-main: "Nunito", sans-serif;
 }
 
 * {
@@ -13,8 +10,7 @@
 
 .footer {
     display: flex;
-    flex-direction: column;        
-    font-family: var(--font-family-main);
+    flex-direction: column;
     background-color: var(--color-main-dark-grey);
     color: var(--color-secondary-white);
     height: auto;

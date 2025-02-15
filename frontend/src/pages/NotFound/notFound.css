@@ -1,9 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
-
 :root {
     --color-black: #000000;
     --color-form-medium-grey: #636363;
-    --font-family-main: "Nunito", sans-serif;
 }
 
 * {
@@ -20,7 +17,6 @@
     padding-bottom: 6vh;
     padding-left: 12vw;
     padding-right: 12vw;
-    font-family: var(--font-family-main);
 }
 
 .not-found-title {

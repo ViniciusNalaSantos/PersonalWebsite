@@ -1,3 +1,4 @@
+import './AppRoutes.css';
 import Banner from './layout/Banner';
 import Home from './pages/Home';
 import About from './pages/About';
@@ -11,16 +12,18 @@ import { HashRouter, Routes, Route, Navigate } from "react-router";
 function AppRoutes() {
     return (
         <HashRouter>
-            <Banner />  
-            <Routes>
+            <Banner />
+            <div className='pages'>
+            <Routes>                
                 <Route path="/" element={<Navigate to="/home" />} />
                 <Route path='/home' element={ <div><Home /><About /><Contact /><Projects /></div> } />
                 <Route path='/about' element={ <About /> } />
                 <Route path='/contact' element={ <Contact /> } />
                 <Route path='/projects' element={ <Projects /> } />
                 <Route path='/projects/:id' element={ <ProjectArticle /> } />          
-                <Route path='*' element={ <NotFound /> } />          
+                <Route path='*' element={ <NotFound /> } />                
             </Routes>
+            </div>
             <Footer />
         </HashRouter>
     )
