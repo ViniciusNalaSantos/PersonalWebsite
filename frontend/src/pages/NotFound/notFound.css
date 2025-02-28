@@ -32,3 +32,23 @@
     font-size: 4.5rem;
     color: var(--color-form-medium-grey);
 }
+
+@media only screen and (max-width: 480px) {
+    .not-found-title {
+        font-size: 1.5rem;
+    }  
+    
+    .not-found-error {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    .not-found-title {
+        font-size: 2rem;
+    }  
+    
+    .not-found-error {
+        font-size: 3rem;
+    }
+}
