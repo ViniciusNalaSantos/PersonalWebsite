@@ -10,7 +10,7 @@ function Home() {
         <div className="home">
             <Image src={`./images/jpg/linkedln_profile.jpg`} alt="Profile photo" className="home-image"/>
             <h1 className="home-title" >Olá, eu sou o Vinícius.</h1>
-            <h2 className="home-subtitle" >Estagiário em Engenharia de Software @ <b className="home-subtitle-company">Viasoft Korp</b></h2>
+            <h2 className="home-subtitle" >Engenheiro de Software Junior @ <b className="home-subtitle-company">Viasoft Korp</b></h2>
             <section className="home-text">{Text.homeText}</section>
             <icon className="home-icons">
                 <SquareIconLink to='https://www.hackerrank.com/profile/vinicius_nala'><FaHackerrank /></SquareIconLink>
