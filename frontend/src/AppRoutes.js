@@ -1,4 +1,3 @@
-import './AppRoutes.css';
 import Banner from './layout/Banner';
 import Home from './pages/Home';
 import About from './pages/About';
@@ -13,7 +12,6 @@ function AppRoutes() {
     return (
         <HashRouter>
             <Banner />
-            <div className='pages'>
             <Routes>                
                 <Route path="/" element={<Navigate to="/home" />} />
                 <Route path='/home' element={ <div><Home /><About /><Contact /><Projects /></div> } />
@@ -23,7 +21,6 @@ function AppRoutes() {
                 <Route path='/projects/:id' element={ <ProjectArticle /> } />          
                 <Route path='*' element={ <NotFound /> } />                
             </Routes>
-            </div>
             <Footer />
         </HashRouter>
     )
