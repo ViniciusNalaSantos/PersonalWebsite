@@ -1,4 +1,5 @@
-import './footer.css'
+import './footer.css';
+import '../../styles/animations.css';
 import { FaHackerrank , FaGithub, FaLinkedinIn, FaMediumM, FaKaggle } from "react-icons/fa";
 import Text from '../../assets/json/texts.json';
 
@@ -13,11 +14,11 @@ function Footer() {
           <aside className='footer-main-aside'>
             <h2 className='footer-main-aside-title'>MÍDIAS</h2>
             <icon className='footer-main-aside-icons'>
-              <a href='https://www.hackerrank.com/profile/vinicius_nala' className='footer-main-aside-icons-icon'><FaHackerrank /></a>
-              <a href='https://github.com/ViniciusNalaSantos' className='footer-main-aside-icons-icon'><FaGithub /></a>
-              <a href='https://www.linkedin.com/in/viniciusnala/' className='footer-main-aside-icons-icon'><FaLinkedinIn /></a>
-              <a href='https://medium.com/@viniciusnala' className='footer-main-aside-icons-icon'><FaMediumM /></a>
-              <a href='https://www.kaggle.com/viniciusnalasantos' className='footer-main-aside-icons-icon'><FaKaggle /></a>
+              <a href='https://www.hackerrank.com/profile/vinicius_nala' className='footer-main-aside-icons-icon bounce'><FaHackerrank /></a>
+              <a href='https://github.com/ViniciusNalaSantos' className='footer-main-aside-icons-icon bounce'><FaGithub /></a>
+              <a href='https://www.linkedin.com/in/viniciusnala/' className='footer-main-aside-icons-icon bounce'><FaLinkedinIn /></a>
+              <a href='https://medium.com/@viniciusnala' className='footer-main-aside-icons-icon bounce'><FaMediumM /></a>
+              <a href='https://www.kaggle.com/viniciusnalasantos' className='footer-main-aside-icons-icon bounce'><FaKaggle /></a>
             </icon>
           </aside>
         </div>
