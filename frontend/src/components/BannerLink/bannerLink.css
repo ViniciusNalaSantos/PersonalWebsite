@@ -2,11 +2,11 @@
     --color-secondary-white: #FFFFFF;
 }
 
-.banner-link:visited, .banner-link:hover, .banner-link:link, .banner-link:active {
+.banner-link:visited, .banner-link:link, .banner-link:active {
     color: var(--color-secondary-white);
     text-decoration: none;
 }
 
-.banner-navigations-contrasted {
-    font-weight: bold;
+.banner-link:hover {
+    font-weight: bolder;
 }

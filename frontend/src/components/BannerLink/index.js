@@ -1,11 +1,9 @@
-import { Link, useLocation } from "react-router";
+import { Link } from "react-router";
 import "./bannerLink.css";
 
 function BannerLink({children, to }) {
-    const location = useLocation();
-
     return (
-        <Link className={`banner-link ${location.pathname === to ? 'banner-navigations-contrasted' : ""}`} 
+        <Link className={'banner-link'} 
                          to={to}>{children}</Link>
     )
 }
